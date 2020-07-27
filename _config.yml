@@ -10,7 +10,7 @@ url                     : https://yorko.github.io
 feed:
   path                  : atom.xml
 encoding                : UTF-8
-google_analytics        : UA-125504619-1
+# google_analytics        : UA-125504619-1
 comments                : false
 
 # Jekyll configuration
