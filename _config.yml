@@ -1,0 +1,70 @@
+# Site wide configuration
+
+title                   : "yorko.github.io"
+description             : "Yury Kashnitsky"
+author                  : yorko
+logo                    : ods_logo.png
+teaser                  : ods_logo.png
+locale                  : en
+url                     : https://yorko.github.io
+feed:
+  path                  : atom.xml
+encoding                : UTF-8
+google_analytics        : UA-125504619-1
+comments                : false
+
+# Jekyll configuration
+
+sass:
+  sass_dir              : _sass
+  style                 : compressed
+permalink               : /:categories/articles/:title/
+markdown                : kramdown
+highlighter             : rouge
+kramdown:
+  toc_levels            : 1..2
+  mathjax               : true
+  input                 : GFM
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-seo-tag
+
+
+# Site owner
+owner:
+  name                  : "Yury Kashnitsky"
+  web                   : https://yorko.github.io
+  email                 : "yury.kashnitsky@gmail.com"
+  twitter               : "ykashnitsky"
+  github                : "yorko"
+  facebook              : "festline"
+  bio                   : "Yury Kashnitsky is a Machine Learning Scientist"
+  avatar                : bio-photo.jpg # 160x160 px image for author byline
+  disqus-shortname      : https-festline-github-io
+
+include: ["_pages", ".htaccess"]
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
