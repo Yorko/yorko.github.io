@@ -1,0 +1,29 @@
+# Site navigation links
+
+- title         : "Blog"
+  url           : /
+  excerpt       : "Yorko blog"
+  image         : teaser-blog.png
+
+- title         : "Projects"
+  url           : /projects
+  excerpt       : "My projects"
+  image         : teaser-projects.png
+
+- title         : "CV"
+  url           : /cv
+  excerpt       : "My experience"
+  image         : teaser-cv.png
+  
+
+- title         : "About"
+  url           : /about
+  excerpt       : "About me"
+  image         : teaser-me.png
+  
+
+- title         : "Contacts"
+  url           : /contacts
+  excerpt       : "My contacts and profiles"
+  image         :  teaser-contacts.png 
+  
