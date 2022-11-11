@@ -13,6 +13,5 @@ The navigation block is controlled via the [`_data/navigation.yml`](_data/naviga
 ### Building
 
 - `bundle install`
-- `bundle jekyll exec build`
-- `bundle jekyll exec serve`
-
+- `bundle exec jekyll build`
+- `bundle exec jekyll serve`
