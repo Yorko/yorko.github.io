@@ -13,8 +13,9 @@ In the Data Science community, I'm known for leading open Machine Learning cours
 
 I'm married and have a small daughter.
 
-<div style="text-align:center"><img src="/images/our_photo_venice.jpg" width=300px /></div>
+<div style="text-align:center"><img src="/images/our_photo_venice.jpg" width=400px /></div>
 
 ### About this blog
 
-This blog is about machine learning, mathematics, quantum mechanics, popular science and anything else that I find exciting and (hopefully) can interestingly describe. 
+This blog is about machine learning, mathematics, quantum computation, career development, programming, soft skills, popular science and anything else that I find exciting and (hopefully) can interestingly describe. My long-lasting nickname is Yorko (some African variation of the name Yury). And often times, something new is happening in my life. Hence, I'm titling the blog **New Yorko Times**. From time to time, I'd write in my native language Russian as well. 
+
