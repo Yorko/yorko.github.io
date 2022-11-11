@@ -1,0 +1,29 @@
+# Site navigation links
+
+- title         : "Blog"
+  url           : /
+  excerpt       : "Yorko's view on machine learning, popular science, career development, programming, soft skills, etc."
+  image         : navigation/thumbnail-blog.png
+
+- title         : "Projects"
+  url           : /projects
+  excerpt       : "Some Yorko's (pet)-projects featured"
+  image         : navigation/thumbnail-projects.png
+
+- title         : "CV"
+  url           : /cv
+  excerpt       : "Yorko's work experience and education"
+  image         : navigation/thumbnail-cv.png
+  
+
+- title         : "About"
+  url           : /about
+  excerpt       : "Who the heck is Yorko?"
+  image         : navigation/thumbnail-about.png
+  
+
+- title         : "Contacts"
+  url           : /contacts
+  excerpt       : "How to reach out to Yorko"
+  image         :  navigation/thumbnail-contacts.png 
+  

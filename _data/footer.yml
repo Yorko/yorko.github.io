@@ -1,0 +1,20 @@
+# Footer navigation links
+
+
+- title: "BLOG"
+  url: /
+  
+- title: "CONTACTS"
+  url: /contacts
+  
+- title: "LINKEDIN"
+  url: https://www.linkedin.com/in/kashnitskiy
+
+- title: "YOUTUBE"
+  url: https://www.youtube.com/channel/UCgGADKKGalfwSNbpSyM5ryg
+    
+- title: "TWITTER"
+  url: https://twitter.com/ykashnitsky
+
+- title: "KAGGLE"
+  url: https://www.kaggle.com/kashnitsky

@@ -1,2 +1,7 @@
-blog.html
-*.DS_Store
+# site biulds
+_site
+.sass-cache
+.jekyll-metadata
+
+# rest
+.DS_Store

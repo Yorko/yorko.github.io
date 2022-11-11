@@ -1,35 +1,34 @@
 # Site wide configuration
 
-title                   : "yorko.github.io"
-description             : "Yury Kashnitsky"
+title                   : "Yury Kashnitsky"
+description             : "Blog and website by Yury Kashnitsky"
 author                  : yorko
-logo                    : ods_logo.png
-teaser                  : ods_logo.png
+logo                    : logo-120x120.png
+teaser                  : teaser-blog.png
 locale                  : en
 url                     : https://yorko.github.io
 feed:
   path                  : atom.xml
 encoding                : UTF-8
-# google_analytics        : UA-125504619-1
-comments                : false
+google_analytics        : G-W5TSGY5ZWN
+comments                : true
 
 # Jekyll configuration
 
 sass:
   sass_dir              : _sass
   style                 : compressed
-permalink               : /:categories/articles/:title/
+permalink               : /:categories/:year/:title/
 markdown                : kramdown
 highlighter             : rouge
 kramdown:
   toc_levels            : 1..2
   mathjax               : true
   input                 : GFM
-plugins:
+gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jekyll-seo-tag
 
 
 # Site owner
@@ -38,11 +37,11 @@ owner:
   web                   : https://yorko.github.io
   email                 : "yury.kashnitsky@gmail.com"
   twitter               : "ykashnitsky"
-  github                : "yorko"
+  github                : "Yorko"
   facebook              : "festline"
-  bio                   : "Yury Kashnitsky is a Machine Learning Scientist"
+  bio                   : "Yury Kashnitsky is a Principal Machine Learning Scientist, NLP practitioner, Ph.D. in applied math, leader of open Machine Learning course mlcourse.ai"
   avatar                : bio-photo.jpg # 160x160 px image for author byline
-  disqus-shortname      : https-festline-github-io
+  disqus-shortname      : yorko-github-io
 
 include: ["_pages", ".htaccess"]
 exclude:
