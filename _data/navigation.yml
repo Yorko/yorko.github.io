@@ -2,28 +2,28 @@
 
 - title         : "Blog"
   url           : /
-  excerpt       : "Yorko blog"
-  image         : teaser-blog.png
+  excerpt       : "Yorko's view on machine learning, popular science, career development, programming, soft skills, etc."
+  image         : navigation/thumbnail-blog.png
 
 - title         : "Projects"
   url           : /projects
-  excerpt       : "My projects"
-  image         : teaser-projects.png
+  excerpt       : "Some Yorko's (pet)-projects featured"
+  image         : navigation/thumbnail-projects.png
 
 - title         : "CV"
   url           : /cv
-  excerpt       : "My experience"
-  image         : teaser-cv.png
+  excerpt       : "Yorko's work experience and education"
+  image         : navigation/thumbnail-cv.png
   
 
 - title         : "About"
   url           : /about
-  excerpt       : "About me"
-  image         : teaser-me.png
+  excerpt       : "Who the heck is Yorko?"
+  image         : navigation/thumbnail-about.png
   
 
 - title         : "Contacts"
   url           : /contacts
-  excerpt       : "My contacts and profiles"
-  image         :  teaser-contacts.png 
+  excerpt       : "How to reach out to Yorko"
+  image         :  navigation/thumbnail-contacts.png 
   

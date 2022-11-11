@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "What Data Scientists Don’t Mention in Their LinkedIn Profiles"
+title: "What Data Scientists Don’t Mention on Their LinkedIn Profiles"
 image:
   teaser: 20210604-ds-failures-podcast/teaser.png
 ---
