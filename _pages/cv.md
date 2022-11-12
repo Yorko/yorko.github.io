@@ -9,12 +9,11 @@ image:
 
 ## Work
 
-#### Principal Machine Learning Scientist, RELX/Elsevier.
+#### Principal Machine Learning Scientist, RELX/Elsevier
 
-*04.2020 – Present.*
+*04.2020 – Present*
 
-- Improved editors’ operational efficiency saving est. X euro p.a. by
-providing a near-duplicate manuscript detection service
+- Improved editors’ operational efficiency providing a near-duplicate manuscript detection service
 - Created a service spotting contributions to Sustainable Development Goals in research content, the service is used by THE in their Social Impact Ranking and in multiple Elsevier products.
 - Leading a team in several NLP-related projects, facilitating the collaboration between engineers and Data Scientists on MLOps.
 

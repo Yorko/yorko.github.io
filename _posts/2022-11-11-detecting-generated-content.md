@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "How I organized the COLING track on the detection of generated scientific content"
+title: "How I helped organizing the COLING track on the detection of generated scientific content"
 image:
   teaser: 20221111-detecting-generated-content/teaser.png
 ---

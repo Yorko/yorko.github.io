@@ -34,11 +34,4 @@ Images are stored in the [images](images) folder, there are subfolders per post.
 
 For development, tou can run the last command, make updates, and track the result at [localhost:4000](http://localhost:4000/)
 
-## Backlog of ideas for upcoming posts
 
-- Machine Learning LEGO blocks (translation)
-- SVM (extension + translation)
-- Practical near-duplicate detection with Datasketch LSH 
-- SDGs
-- Generation of images with OpenAI
-- Scaling law for near-dups
