@@ -26,6 +26,10 @@ Footers are set up in the [`_data/footers.yml`](_data/footers.yml) file.
 
 Images are stored in the [images](images) folder, there are subfolders per post.
 
+### Google Analytics 4
+
+Just putting the GA measurement ID into `_config.yaml` didn't work, so I inserted and identical [code snippet](https://analytics.google.com/analytics/web/?authuser=0#/a186888467p342067860/admin/streams/table/4278260341) into each `_site/*.html` page. 
+
 ## Building
 
 - `bundle install`
