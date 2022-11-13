@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>[RUS] Data Science failures - part 2 • Yury Kashnitsky</title>
+    <meta name="description" content="This is a longreed where I honestly describe what people typically do not mention on their LinkedIn profiles – failures. This post is in Russian, originally posted in VK.com.
+">
+    <meta name="keywords" content="">
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="[RUS] Data Science failures - part 2">
+	<meta name="twitter:description" content="This is a longreed where I honestly describe what people typically do not mention on their LinkedIn profiles – failures. This post is in Russian, originally posted in VK.com.
+">
+	<meta name="twitter:site" content="@ykashnitsky">
+	<meta name="twitter:creator" content="@ykashnitsky">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="http://localhost:4000/images/logo-120x120.png">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="[RUS] Data Science failures - part 2">
+	<meta property="og:description" content="This is a longreed where I honestly describe what people typically do not mention on their LinkedIn profiles – failures. This post is in Russian, originally posted in VK.com.
+">
+	<meta property="og:url" content="http://localhost:4000/2021/ds-failures-part2/">
+	<meta property="og:site_name" content="Yury Kashnitsky">
+
+    <link rel="canonical" href="http://localhost:4000/2021/ds-failures-part2/">
+
+    <link href="http://localhost:4000/atom.xml" type="application/atom+xml" rel="alternate" title="Yury Kashnitsky Atom Feed">
+    <link href="http://localhost:4000/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="http://localhost:4000/js/vendor/html5shiv.min.js"></script>
+      <script src="http://localhost:4000/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body id="js-body">
+    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="http://localhost:4000/" class="site-title">Yury Kashnitsky</a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<li class="home"><a href="/">Yury Kashnitsky</a></li>
+	
+    
+    <li><a href="http://localhost:4000/" >Blog</a></li>
+  
+    
+    <li><a href="http://localhost:4000/projects" >Projects</a></li>
+  
+    
+    <li><a href="http://localhost:4000/cv" >CV</a></li>
+  
+    
+    <li><a href="http://localhost:4000/about" >About</a></li>
+  
+    
+    <li><a href="http://localhost:4000/contacts" >Contacts</a></li>
+  
+</ul>
+    </nav>
+  </div><!-- /.inner-wrap -->
+  
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+</header><!-- /.masthead -->
+
+    <nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>Yury Kashnitsky <span>Table of Contents</span></h5>
+  <ul class="menu-item">
+    <li>
+      <a href="http://localhost:4000/">
+        <img src="http://localhost:4000/images/navigation/thumbnail-blog.png" alt="teaser" class="teaser">
+        <div class="title">Blog</div>
+        <p class="excerpt">Yorko's view on machine learning, popular science, career development, programming, soft skills, etc.</p>
+      </a>
+    </li><li>
+      <a href="http://localhost:4000/projects">
+        <img src="http://localhost:4000/images/navigation/thumbnail-projects.png" alt="teaser" class="teaser">
+        <div class="title">Projects</div>
+        <p class="excerpt">Some Yorko's (pet)-projects featured</p>
+      </a>
+    </li><li>
+      <a href="http://localhost:4000/cv">
+        <img src="http://localhost:4000/images/navigation/thumbnail-cv.png" alt="teaser" class="teaser">
+        <div class="title">CV</div>
+        <p class="excerpt">Yorko's work experience and education</p>
+      </a>
+    </li><li>
+      <a href="http://localhost:4000/about">
+        <img src="http://localhost:4000/images/navigation/thumbnail-about.png" alt="teaser" class="teaser">
+        <div class="title">About</div>
+        <p class="excerpt">Who the heck is Yorko?</p>
+      </a>
+    </li><li>
+      <a href="http://localhost:4000/contacts">
+        <img src="http://localhost:4000/images/navigation/thumbnail-contacts.png" alt="teaser" class="teaser">
+        <div class="title">Contacts</div>
+        <p class="excerpt">How to reach out to Yorko</p>
+      </a>
+    </li>
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+
+
+    <div id="page-wrapper">
+      <div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		
+		
+		<div class="page-title">
+			<h1>[RUS] Data Science failures - part 2</h1>
+		</div>
+		<div class="inner-wrap">
+			<div id="content" class="page-content" itemprop="articleBody">
+				<p><em>This is a longreed where I honestly describe what people typically do not mention on their LinkedIn profiles – failures. This post is in Russian, originally <a href="https://vk.com/@mlcourse-nabitye-shishki-v-ds">posted</a> in VK.com.</em></p>
+
+<hr />
+
+<p>Лонгрид про мои проекты в формате «true story», то есть почти как в баре. По каждой из историй хочется сделать какой-то вывод, порефлексировать, так чтоб это было полезно не только мне, но и вам, моим читателям. Если вдруг предпочитаете видео, то они есть как на русском (DataFest, 30 мин.), так и на английском (DataTalksClub, 1 час). А ниже – все текстом, я лично предпочитаю текст.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l5wLhhkLgHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c6dK1LWpv4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h2 id="1-не-добавлял-в-li-грузчик-в-никс-компьютеры-и-комплектующие">1. Не добавлял в LI: грузчик в “Никс. Компьютеры и комплектующие”</h2>
+
+<p><strong>Формально</strong> – мое первое место работы.
+<strong>В реальности:</strong> самый упоротый собес в моей жизни</p>
+
+<div style="text-align:center"><img src="/images/20210620-ds-failures-part2/shroedinger.jpg" width="400px" /></div>
+
+<p>Вроде как в НИКСе в совете директоров был выпусник МФТИ, своего рода технократ: считал, что если все сотрудники будут шарить в математике, физике и программировании, то все будут ответственны, честны, продуктивны, 5-летка за 3 года и вообще удой коров x4. А поэтому и собесы в компании были… физтеховские. Независимо от желаемой позиции.</p>
+
+<p>Начинался этот марафон с задания на тупую внимательность. Перед тобой лист A4 c тремя столбцами, в каждой около 60-ти 7-8-значных чисел. Надо просто в каждом столбце посчитать сумму, многоразрядный калькулятор прилагается. На это уходит около 35 минут (в 1 из 3 ошибся), после которых перед глазами уже все плавает. Рядом со мной тетка пришла уборщицей устраиваться, держала калькулятор чуть ли не в 1.5 метрах от себя из-за дальнозоркости, бубнила вслух каждую цифру, потратила 1.5 часа - и все три столбца неправильно.</p>
+
+<p>Далее матан, физика и «гномики». С матаном проблем не было, уравнение Шрёдингера даже вспомнил, а похожих гномиков мне тогда слили, вроде одного только не одолел (к слову об эффективности практики «гномиков» на собеседованиях). Типичные: есть там остров, бревно, по нему может с фонарем пройти только один человек, папа за 2 минуты, мама за 3., и т.д., за сколько все семейство переберется. Рядом чувак на программиста собеседовался, слышал, как он тоже мучился, Шрёдингера вспоминал. В конце 5-го часа донесся громкий мат и стук в дверь - это бомбануло у амбала, который на грузчика пришел устраиваться.</p>
+
+<p>В-общем, взяли. А дальше философия компании такая: каждый сотрудник должен пропахать как минимум 2 недели, похавать жизни с самого низа (а дальше физтехов брали уже учиться прогать и якобы быстрый карьерный рост). Я бегал между складом и магазином с флешками, наушниками и прочей хренью. Публика конечно… базарчики только про компы, гамы и девушек. Ну и мы, физтехи :) На 3-ий день все должны были сдать анализ мочи и крови, наркоманов отлавливали. У моего друга типа нашли следы амфетамина в крови, уволили и еще фотку на доску позора повесили.</p>
+
+<p>Дело было после 1-го курса, побегал я так 5 дней - и погнал в Карелию на байдарках гонять.</p>
+
+<p><strong>Вывод:</strong> соберите как можно больше информации о том, как работается в компании, куда вы хотите устроиться. Не стесняйтесь вытаскивать будущих коллег на напитки, узнайте все из первых рук. Вдруг передумаете.</p>
+
+<h2 id="2-linkedin-3d-virtual-reality-application-developer-at-moscow-radio-technical-institute">2. LinkedIn: 3d virtual reality application developer at Moscow Radio-Technical Institute</h2>
+
+<p><strong>В реальности:</strong> первые шаги в Python</p>
+
+<div style="text-align:center"><img src="/images/20210620-ds-failures-part2/mrti.jpg" width="800px" /></div>
+<p><em>Московский Радио-Технический Институт</em></p>
+
+<p>Курсе на третьем я пошел заниматься виртуальной реальностью. Выбор был между 3dsMax и разработкой на Python.</p>
+
+<p>Чисто интуитивно выбрал Python и не прогадал. Хоть это формально был радиотех-институт с дедами в свитерах, софтина была задротская (граф сцены контролировался на низком уровне на C++ и обертка на питоне), я полгода писал всего лишь модуль подключения к БД – я всего равно был рад, понял, что программирование – моё (тут избегу лирическое отступление про информатичку в школе, как там все вслух матюгались, а класс старше нас заломал ей руки и заставил порево смотреть). Сейчас вспоминаю, смешно, конечно. В 19 лет был еще дитем. Только подписал договор на жалкие 8 тыс. р. в месяц, тут же мне сказали, что денег на самом деле нет, а я не встал, не вышел. Еще прикол, как член нашей команды накануне защиты проекта стал шантажировать и в итоге отхватил бабла из других проектов. Ну да ладно, заработал я свой полтинник месяцев за 7, купил сноуборд, все гуд, провалом бы этот опыт не назвал.</p>
+
+<p><strong>Вывод:</strong> все же если вам 19 лет или около того, для погружения в Python лучше пойти на стажировку в классную IT-компанию. И тут речь не только о Python, но о разработке в целом и best practices.</p>
+
+<h2 id="3-linkedin-oracle-bi-developer--java-developer-at-rdtex">3. LinkedIn: Oracle BI developer &amp; Java developer at RDTEX</h2>
+
+<p><strong>В реальности:</strong> коммивояжер</p>
+
+<p>Далее был системный интегратор, где я начал ботать Hadoop (спроса это не нашло), посидел в корпоративном учебном центре почти год и пошел клепать BI-отчеты. Проектировать всякие логические схемы для отчетности даже более-менее понравилось, порой думать надо. Тем не менее BI да под заказ – тухлая тема, если у челов хреновые хранилища, тут из говна конфетку не сделаешь. Перешел учиться прогать на джаве.</p>
+
+<p>Самый эпик в этой истории были командировки в Пермь (тогда я еще не был знаком с будущей женой пермячкой). Минус 30, в 7 утра темно, такси тебя забирает, в 7-8 вечера темно, такси тебя забирает. Окон нет, солнца не видишь. Возвращаешься в отель – тебе с ресепшн звонят “Отдохнуть не желаете?” У нас еще проджект обсчитался, арифметику плохо ботал, не учел, что в выходные нам тоже надо в отеле жить, финанcы стали не сходиться, нас заставили еще в выходные работать. Разок даже взбунтовался - в воскресенье пошел с пермской шпаной в хоккей играть.</p>
+
+<p>В-общем, увидел я свой горизонт развития эдак лет на 30 вперед – и ушел фултайм в аспирантуру. Выбор противоречивый, но я не жалею. Аспирантуру в этом рассказе все же пропущу, оставлю только индустрию. Про аспу vs. индустрию можно отдельно столько же написать, не менее саркастически, чем у Стругацких в “Понедельник начинается в субботу”.</p>
+
+<p><strong>Вывод:</strong> аккуратнее с командировками! И не соглашайтесь грести в выходные.</p>
+
+<h2 id="4-linkedin-data-scientist-at-mailru-group">4. LinkedIn: Data Scientist at Mail.Ru Group</h2>
+
+<p><strong>В реальности:</strong> отличный опыт</p>
+
+<p>В мэйл меня схантили ближе к концу аспирантуры, так что пришел я в большую компанию с синдромом Ph.D.-гая. Это мне и помешало закрепиться в первой команде в группе поиска и рекомендаций. Были и мои косяки, но и пришлось переоткрыть для себя правило “не работайте с чудаками”, про это, кстати, писал в своем “жизнеописании” в слэке ODS.
+Проект в целом не был зафейлен, просто прогресс шел медленно. Я про это дело подробно рассказывал на DataFest 2018 в Минске (а также – про прочие типичные косяки в проектах по анализу данных), так что вкратце, не смакуя подробности: был большой крутой поисковый бустинг, использовали его заодно в рекомендациях контента – вот эти самые “читайте также” на куче площадок (dev.by, lifehacker, коммерсант, to name a few).</p>
+
+<div style="text-align:center"><img src="/images/20210620-ds-failures-part2/see_also.jpg" width="800px" /></div>
+
+<p>Эвристика в таких задачах проста, как дверь – отсортировать по ClickThroughRate (заранее исключив сиськи и непотребный контент). И в проде как раз было что-то типа недельного CTR в комбинации с месячным, чтоб тренд типа учесть, да все разбито на 10 половозрастных категорий. Ясное дело, у деревянных моделей офлайн результаты были сильно лучше. Но в онлайн-эксперименте бустинг упорно проигрывал эвристике.</p>
+
+<p>Я проверил кучу ML-гипотез: active learning, лоссы специфичные для ранжирования, фичи всякие само собой – так и не мог побить надежно эвристику. Месяца через 3 только понял, что дело в инфраструктуре, а не в эмэль части. Стресс-тест показал, что бустинг порой тормозил на инференсе, не укладывался в отведенные 80мс, в таком случае подставлялся костыль (в поиске это называли ППН – поиск последней надежды). То есть по сути я в онлайне гонял не бустинг, а смесь бустинга с костылем
+Пофиксил – все взлетело. Фикс заключался в том, чтобы бустингу на переранжирование просто подавать меньше документов, чтоб он не захлебнулся. Но было поздно, отношения с боссом испорчены. Надо сказать, что примерно тогда же я стартанул курс mlcourse.ai и еще много делал по диссеру, так что я просто много на себя взвалил. В этой команде надо было фигачить фултайм, прям работать, к такому я не был готов после аспирантуры.</p>
+
+<div style="text-align:center"><img src="/images/20210620-ds-failures-part2/ci_cd.jpg" width="400px" /></div>
+
+<p>Я перешел в команду предиктивной аналитики.</p>
+
+<p>Во второй команде работал в “атмосфере стартапа”. Классный веселый менеджер, мотивировал постоянно: “давайте-давайте, пилим же классный продукт!” – средство для аналитики аудитории мобильных игр, я начал там всю историю с “предиктами” – LTV, прогноз платежа, retention, поиск платящих гамеров, позже антифрод. Было весело, куча идей, гипотез, все с нуля. Но вот так чтоб что-то зашло и тем более денег принесло – пожалуй, нет. Кажется, на момент моего ухода успехом был только антифрод, а его мой коллега писал, хоть и над фичами вместе порой думали. Это было круто, как детектив – расследуешь, как себя ведут боты, сочиняешь фичи. Но что касается уровня разработки – стыдно вспоминать: никаких тестов, таблички с прогнозами рсинкали на сервак разрабу, он ругался, что айдишники не матчатся, что-то на ходу в проде подправляли, вкорячивали какие-то хаки.</p>
+
+<p>Все же хороший опыт. Сейчас периодически пингую ребят из этой команды – процессы наладили, какие-то из моделек даже денег приносят.</p>
+
+<p><strong>Вывод:</strong> Data Science проект – это не Jupyter Notebook (в отрыве от описанной истории – вывод кэпский). Советую познакомиться со всеми инженерами, разработчиками, MLops так или иначе связанными с вашей моделью. Разберитесь во всех тонкостях работы модели, чтобы понимать, где ожидать подводные камни.</p>
+
+<h2 id="5-не-добавлял-в-li-ml-expert-at-a-fintech-startup">5. Не добавлял в LI: ML expert at a fintech startup</h2>
+
+<p><strong>В реальности:</strong> “атмосфера стартапа”</p>
+
+<p>Мэйл, конечно, хорош тем, что там много сильных людей, и в какой-то момент нетворк работает. Параллельно меня сманили в стартапчик, который пилят мэйловцы в основном. Чуваки начинали с майнинга биткоина – накупили 4500 (!) GPU, потом вдруг поняли, что девать их некуда, а биток майнить надо не на GPU. Переключились на онлайн-банкинг, позволяющий в один щелчок покупать биток в мобильном приложении. Заодно решили добавить AI в питч-дэки, и так я с нуля начал предсказывать сентимент новостей о криптовалютах. Я сходу с порога сказал, что ввязываться в прогноз курса битка не буду, а вот тональность – почему бы и нет.</p>
+
+<p>Было классно, чистый рисеч в NLP, это было еще до того, как HuggingFace сделал трансформеры доступными, так что в основном я страдал со всякими бесячими репами на гитхабе, где полдня пытаешься тупо что-то запустить, чтоб завелось. Кажется, едва-едва побил tfidf-logreg. Разметку делали какие-то друзья-австралийцы, эксперты в криптовалютах, чатик был очень бодрый, конечно, но дороговато, я решил все же пересесть на mechanical turk. Конец истории – у чуваков наступили сложности с финансированием, весь Эй-Яй прикрыли. Сейчас я даже не помню, сколько я от них получал, но с SotA в NLP поиграться было весело, заодно пощупал руками второй стартап, в котором не хотел бы работать.</p>
+
+<p><strong>Вывод:</strong> стартапу (да и любой компании тоже) далеко не всегда нужен ML.</p>
+
+<h2 id="6-data-scientist-at-kpn">6. Data Scientist at KPN</h2>
+
+<p><strong>В реальности:</strong> много свободы, мало импакта</p>
+
+<p>Переезд в Нидерланды был своего рода мечтой, уж если не для меня, то точно для жены. Так что завалив собес с букингом и не найдя общего языка с Ebay, устроился в KPN – топ-1 телеком-оператор в Нидерландах. В целом, конечно, DS в такой матёрой, чисто голландской компании с кучей менеджеров – это как крутая тачка: дорогая, модная, но зачем нужна и как ее водить – непонятно.</p>
+
+<div style="text-align:center"><img src="/images/20210620-ds-failures-part2/kpn_lombard.jpg" width="600px" /></div>
+<p><em>Менеджер: «Хм… Data Science, круто.»</em></p>
+
+<p>В нашей DataScienceLab был один проект, стабильно приносящий деньги – bad debt, скоринг покупателей в магазинах KPN (тут мини-кулстори, как я сам пострадал от модели своих коллег – мне не одобрили кредит на айфон, потом по фичам пробивал, это из-за пермита меньше года). И в целом один успешный проект – это карт-бланш на весь прочий прикладной рисеч. Много свободы, но мало ощущения импакта. Поэтому я тащил простенький NLP-проект с классификацией чатов по темам, а остальное время опять рисечил соту в NLP, учился берты крутить. В рамках Amsterdam Data Science запустил “кружок” по трансфер-лернингу в NLP, это меня и вывело на следующую работу.</p>
+
+<p>В KPN была лучшая команда по человеческим качествам, влился как родной. Еще меня приятно удивил уровень разработки, все прям грамотно, именно в этой команде я освоил докеры-кубернетесы, CI/CD и все лучшие практики. После “стартапа” внутри мэйла – прям что надо. Еще отличный менеджер, который своими руками всю команду выстроил, за каждого воевал как за родного сына, участвовал в персональном развитии, но… его сожрали и выгнали на мороз. В целом это мирок менеджерский, со всякой корп политотой, так что роста в компании я вообще не видел, поэтому и рисечил себе в удовольствие, выбил кэггл-мастера и стал присматривать другие места для работы.</p>
+
+<p><strong>Вывод:</strong> +1 хороший вопрос на собеседовании: «Какие проекты у вас приностя деньги и сколько?».</p>
+
+<h2 id="мораль">Мораль</h2>
+
+<p>Как таковой морали нет. Сделал только для себя несколько выводов:</p>
+
+<ul>
+  <li>если хочешь своим эмэлем прям денег принести компании – предсказывай что-то напрямую связанное с деньгами (кэп)</li>
+  <li>свой ML-стартап тащить не готов – разорюсь, понятно просто по истории моих проектов в индустрии.</li>
+  <li>самопиар, self-marketing – это именно маркетинг, то есть с кучей вранья, включая многие истории про проекты и их импакт. Тем не менее, самопиаром заниматься стоит.</li>
+</ul>
+
+
+				<hr />
+				<footer class="page-footer">
+					
+
+<div class="author-image">
+	<img src="http://localhost:4000/images/bio-photo.jpg" alt="Yury Kashnitsky">
+</div><!-- ./author-image -->
+<div class="author-content">
+	<h3 class="author-name" >Written by <a href="https://yorko.github.io" itemprop="author">Yury Kashnitsky</a></h3>
+	<p class="author-bio">Yury Kashnitsky is a Principal Machine Learning Scientist, NLP practitioner, Ph.D. in applied math, leader of open Machine Learning course mlcourse.ai</p>
+</div><!-- ./author-content -->
+					<div class="inline-btn">
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=[RUS]%20Data%20Science%20failures%20-%20part%202&amp;url=http://localhost:4000/2021/ds-failures-part2/&amp;via=ykashnitsky" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2021/ds-failures-part2/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
+	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=http://localhost:4000/2021/ds-failures-part2/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
+</div><!-- /.share-this -->
+
+					<div class="page-meta">
+	<p>Updated <time datetime="2021-06-20T00:00:00Z" itemprop="datePublished">June 20, 2021</time></p>
+</div><!-- /.page-meta -->
+				</footer><!-- /.footer -->
+				<aside>
+					<hr />
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	var disqus_shortname = 'yorko-github-io';
+
+	/* * * DON'T EDIT BELOW THIS LINE * * */
+	(function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
+
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="http://localhost:4000/" >BLOG</a></li>
+		
+      
+			<li><a href="http://localhost:4000/contacts" >CONTACTS</a></li>
+		
+      
+			<li><a href="https://www.linkedin.com/in/kashnitskiy" target="_blank">LINKEDIN</a></li>
+		
+      
+			<li><a href="https://www.youtube.com/channel/UCgGADKKGalfwSNbpSyM5ryg" target="_blank">YOUTUBE</a></li>
+		
+      
+			<li><a href="https://twitter.com/ykashnitsky" target="_blank">TWITTER</a></li>
+		
+      
+			<li><a href="https://www.kaggle.com/kashnitsky" target="_blank">KAGGLE</a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2022 <a href="http://localhost:4000">Yury Kashnitsky</a> (yury.kashnitsky@gmail.com). Powered by <a href="http://jekyllrb.com">Jekyll</a> + <a href="https://mmistakes.github.io/skinny-bones-jekyll/">Skinny Bones</a>.</p>
+</footer>
+
+    </div>
+
+    <script src="http://localhost:4000/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="http://localhost:4000/js/main.js"></script>
+
+  </body>
+
+</html>

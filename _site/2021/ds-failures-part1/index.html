@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>[RUS] Data Science failures - part 1 • Yury Kashnitsky</title>
+    <meta name="description" content="Here I honestly describe what people typically do not mention on their LinkedIn profiles – failures. This post is in Russian, originally posted in VK.com.
+">
+    <meta name="keywords" content="">
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="[RUS] Data Science failures - part 1">
+	<meta name="twitter:description" content="Here I honestly describe what people typically do not mention on their LinkedIn profiles – failures. This post is in Russian, originally posted in VK.com.
+">
+	<meta name="twitter:site" content="@ykashnitsky">
+	<meta name="twitter:creator" content="@ykashnitsky">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="http://localhost:4000/images/logo-120x120.png">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="[RUS] Data Science failures - part 1">
+	<meta property="og:description" content="Here I honestly describe what people typically do not mention on their LinkedIn profiles – failures. This post is in Russian, originally posted in VK.com.
+">
+	<meta property="og:url" content="http://localhost:4000/2021/ds-failures-part1/">
+	<meta property="og:site_name" content="Yury Kashnitsky">
+
+    <link rel="canonical" href="http://localhost:4000/2021/ds-failures-part1/">
+
+    <link href="http://localhost:4000/atom.xml" type="application/atom+xml" rel="alternate" title="Yury Kashnitsky Atom Feed">
+    <link href="http://localhost:4000/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="http://localhost:4000/js/vendor/html5shiv.min.js"></script>
+      <script src="http://localhost:4000/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body id="js-body">
+    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="http://localhost:4000/" class="site-title">Yury Kashnitsky</a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<li class="home"><a href="/">Yury Kashnitsky</a></li>
+	
+    
+    <li><a href="http://localhost:4000/" >Blog</a></li>
+  
+    
+    <li><a href="http://localhost:4000/projects" >Projects</a></li>
+  
+    
+    <li><a href="http://localhost:4000/cv" >CV</a></li>
+  
+    
+    <li><a href="http://localhost:4000/about" >About</a></li>
+  
+    
+    <li><a href="http://localhost:4000/contacts" >Contacts</a></li>
+  
+</ul>
+    </nav>
+  </div><!-- /.inner-wrap -->
+  
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+</header><!-- /.masthead -->
+
+    <nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>Yury Kashnitsky <span>Table of Contents</span></h5>
+  <ul class="menu-item">
+    <li>
+      <a href="http://localhost:4000/">
+        <img src="http://localhost:4000/images/navigation/thumbnail-blog.png" alt="teaser" class="teaser">
+        <div class="title">Blog</div>
+        <p class="excerpt">Yorko's view on machine learning, popular science, career development, programming, soft skills, etc.</p>
+      </a>
+    </li><li>
+      <a href="http://localhost:4000/projects">
+        <img src="http://localhost:4000/images/navigation/thumbnail-projects.png" alt="teaser" class="teaser">
+        <div class="title">Projects</div>
+        <p class="excerpt">Some Yorko's (pet)-projects featured</p>
+      </a>
+    </li><li>
+      <a href="http://localhost:4000/cv">
+        <img src="http://localhost:4000/images/navigation/thumbnail-cv.png" alt="teaser" class="teaser">
+        <div class="title">CV</div>
+        <p class="excerpt">Yorko's work experience and education</p>
+      </a>
+    </li><li>
+      <a href="http://localhost:4000/about">
+        <img src="http://localhost:4000/images/navigation/thumbnail-about.png" alt="teaser" class="teaser">
+        <div class="title">About</div>
+        <p class="excerpt">Who the heck is Yorko?</p>
+      </a>
+    </li><li>
+      <a href="http://localhost:4000/contacts">
+        <img src="http://localhost:4000/images/navigation/thumbnail-contacts.png" alt="teaser" class="teaser">
+        <div class="title">Contacts</div>
+        <p class="excerpt">How to reach out to Yorko</p>
+      </a>
+    </li>
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+
+
+    <div id="page-wrapper">
+      <div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		
+		
+		<div class="page-title">
+			<h1>[RUS] Data Science failures - part 1</h1>
+		</div>
+		<div class="inner-wrap">
+			<div id="content" class="page-content" itemprop="articleBody">
+				<p><em>Here I honestly describe what people typically do not mention on their LinkedIn profiles – failures. This post is in Russian, originally <a href="https://vk.com/@mlcourse-nabitye-shishki-v-ds-pervaya-istoriya-iz-serii">posted</a> in VK.com.</em></p>
+
+<p><em><a href="https://youtu.be/c6dK1LWpv4g">Here</a> is my conversation with the DataTalksClub leader Alexey Grigoriev about my Data Science failures, which is in English.</em></p>
+
+<hr />
+
+<p>Привет! Скоро DataFest 2021, не упустите это море крутых докладов и нетворкинга. На датаёлке в прямом эфире кормили оленя, в этот раз обещают медведя, что, конечно же, главная причина сидеть в субботу в ютубе.</p>
+
+<div style="text-align:center"><img src="/images/20210515-ds-failures-part1/deer_natekin.jpg" /></div>
+
+<p>На фесте 2021 в треке про найм и карьеру в Data Science (ведомом Валерой Бабушкиным), я расскажу о своих набитых шишках и фэйлах в DS-проектах. Что-то в стиле LinkedIn vs. «true story», то есть о чем не пишут в профилях на LinkedIn. К слову, примерно о том же (только уже на английском) мы побеседуем с Алексеем Григорьевым через неделю после феста в его подкасте DataTalks (<a href="https://datatalks.club/people/yurykashnitsky.html">анонс</a>).</p>
+
+<p>В отличие от Валеры, я не работал на трёх работах одновременно, никогда не жал от груди два своих веса и вообще мне не очень комфортно, когда мои навыки объяснения логрега, условно, экстраполируют и считают, что я могу этим эйаем вам всем сейчас все метрики через потолок пробить и запустить в космос. Так что хочу рассказать свои историю про Data Science, как на практике порой сложно за счёт ML-моделей принести деньги компании, как сложно побить бейзлайны, и вот про это всё, пройтись, скажем так, критически по собственному LinkedIn-профилю.</p>
+
+<h3 id="phd-guy-в-mailru-group">Ph.D.-guy в Mail.Ru Group</h3>
+
+<p>Начну рассказ про свой первый проект в Mail.Ru Group, куда я пришёл после 3х лет фултайм в аспирантуре ВШЭ. Я про это дело <a href="https://www.youtube.com/watch?v=uK4hPD12YmI&amp;t=4s">рассказывал</a> на DataFest 2018 в Минске (там про прочие косяки в анализе данных тоже есть), так что здесь вкратце, не смакуя подробности.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uK4hPD12YmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>У нас был большой крутой поисковый бустинг, использовали его заодно в рекомендациях контента – вот эти самые “читайте также” на куче площадок. Эвристика проста, как дверь – отсортировать по ClickThroughRate (заранее исключив обнажёнку и всякий непотребный контент). И в проде как раз было что-то типа недельного CTR в комбинации с месячным, чтоб тренд типа учесть, да все разбито на 10 поло-возрастных категорий. Ясное дело, у деревянных моделей офлайн результаты были сильно лучше.</p>
+
+<p>Но в онлайн-эксперименте бустинг упорно проигрывал эвристике. Я проверил кучу ML-гипотез: active learning, лоссы специфичные для ранжирования, фичи всякие само собой (подошел к проблеме, как Ph.D.-guy) – так и не мог побить надежно эвристику. Месяца через 3 только понял, что дело в инфраструктуре, а не в ML части. Стресс-тест показал, что бустинг порой тормозил на инференсе, не укладывался в отведенные 80 мс, в таком случае подставлялся костыль (в поиске это называли ППН – поиск последней надежды). То есть по сути я в онлайне гонял не бустинг, а смесь бустинга с костылем.</p>
+
+<p>Пофиксил – все взлетело. Фикс заключался в том, чтобы бустингу на переранжирование просто подавать меньше документов, чтоб он не захлебнулся. Опять, если интересно, детально про задачу, с метриками и всем прочим – в <a href="https://www.youtube.com/watch?v=uK4hPD12YmI&amp;t=4s">докладе</a> «О некоторых косяках в анализе данных». Но было поздно, отношения с боссом испорчены, и я сменил команду, хоть проект и успешный в итоге. Надо сказать, что примерно тогда же я стартанул mlcourse.ai и еще много делал по диссеру, так что я просто много на себя взвалил. В этой команде надо было фигачить фултайм, прям работать, к такому я не был готов после аспирантуры :)</p>
+
+<h3 id="выводы">Выводы</h3>
+
+<p>Выводов я для себя сделал два (в отрыве от истории покажутся кэпскими) – ML-модель живет не в жупитер-ноутбуках, а в целой инфраструктуре, и чтоб «оно просто работало» – познакомься с разработчиками, обсуди в деталях, как работает эта самая инфраструктура, хотя бы та часть, что критична для твоей модели. Ну и второй вывод, что в некоторых ситуациях тебе надо работать сконцентрированно только над одной задачей, чтоб заработать репутацию.</p>
+
+<p>Приходите на DataFest 2021, в том числе на секцию DS Hiring, где я расскажу о прочих граблях, по которым прошёлся в боевых проектах.</p>
+
+<p><strong>UPD.</strong> А вот и сам доклад.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l5wLhhkLgHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+				<hr />
+				<footer class="page-footer">
+					
+
+<div class="author-image">
+	<img src="http://localhost:4000/images/bio-photo.jpg" alt="Yury Kashnitsky">
+</div><!-- ./author-image -->
+<div class="author-content">
+	<h3 class="author-name" >Written by <a href="https://yorko.github.io" itemprop="author">Yury Kashnitsky</a></h3>
+	<p class="author-bio">Yury Kashnitsky is a Principal Machine Learning Scientist, NLP practitioner, Ph.D. in applied math, leader of open Machine Learning course mlcourse.ai</p>
+</div><!-- ./author-content -->
+					<div class="inline-btn">
+	<a class="btn-social twitter" href="https://twitter.com/intent/tweet?text=[RUS]%20Data%20Science%20failures%20-%20part%201&amp;url=http://localhost:4000/2021/ds-failures-part1/&amp;via=ykashnitsky" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+	<a class="btn-social facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2021/ds-failures-part1/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
+	<a class="btn-social google-plus"  href="https://plus.google.com/share?url=http://localhost:4000/2021/ds-failures-part1/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Share on Google+</a>
+</div><!-- /.share-this -->
+
+					<div class="page-meta">
+	<p>Updated <time datetime="2021-05-15T00:00:00Z" itemprop="datePublished">May 15, 2021</time></p>
+</div><!-- /.page-meta -->
+				</footer><!-- /.footer -->
+				<aside>
+					<hr />
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	var disqus_shortname = 'yorko-github-io';
+
+	/* * * DON'T EDIT BELOW THIS LINE * * */
+	(function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
+
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+			<li><a href="http://localhost:4000/" >BLOG</a></li>
+		
+      
+			<li><a href="http://localhost:4000/contacts" >CONTACTS</a></li>
+		
+      
+			<li><a href="https://www.linkedin.com/in/kashnitskiy" target="_blank">LINKEDIN</a></li>
+		
+      
+			<li><a href="https://www.youtube.com/channel/UCgGADKKGalfwSNbpSyM5ryg" target="_blank">YOUTUBE</a></li>
+		
+      
+			<li><a href="https://twitter.com/ykashnitsky" target="_blank">TWITTER</a></li>
+		
+      
+			<li><a href="https://www.kaggle.com/kashnitsky" target="_blank">KAGGLE</a></li>
+		
+		</ul>
+	</nav><!-- /.bottom-menu -->
+	<p class="copyright">&#169; 2022 <a href="http://localhost:4000">Yury Kashnitsky</a> (yury.kashnitsky@gmail.com). Powered by <a href="http://jekyllrb.com">Jekyll</a> + <a href="https://mmistakes.github.io/skinny-bones-jekyll/">Skinny Bones</a>.</p>
+</footer>
+
+    </div>
+
+    <script src="http://localhost:4000/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="http://localhost:4000/js/main.js"></script>
+
+  </body>
+
+</html>
