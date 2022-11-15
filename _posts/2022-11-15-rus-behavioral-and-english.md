@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "[RUS] On BigTech, soft-skills and English"
+title: "[RUS] On BigTech, soft skills and English speaking"
 image:
   teaser: 20221115-rus-behavioral-and-english/teaser.jpg
 ---
 
-_Here I go through behavioral interview preparation and qualities that many canidates lack: soft skills and English-speaking._
+_Here I go through behavioral interview preparation and qualities that many canidates lack: soft skills and fluent English speaking._
 
 ***
 
