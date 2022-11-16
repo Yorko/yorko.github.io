@@ -20,7 +20,7 @@ sass:
   style                 : compressed
 permalink               : /:categories/:year/:title/
 markdown                : kramdown
-remote_theme: jekyll/minima
+remote_theme            : jekyll/minima
 highlighter             : rouge
 kramdown:
   toc_levels            : 1..2
@@ -31,6 +31,9 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jekyll-remote-theme
+
+plugins:
+ - jekyll-remote-theme
 
 
 # Site owner
