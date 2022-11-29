@@ -21,7 +21,7 @@ _Here I go through behavioral interview preparation and qualities that many cani
 
 - Посмотрите типовые вопросы, их штук 150. [Вот](https://igotanoffer.com/blogs/tech/amazon-behavioral-interview) неплохой список для Амазона, но вопросы там хорошо общаются и на прочие компании
 - Также почитайте [телеграм-канал](https://t.me/cryptovalerii) “Время Валеры” @cryptovalerii по тегу #InterviewPreparation
-- Выделите десяток самых популярных вопросов (таких видео полно на ютубе, точно стоит включить: “Tell us about a project you are most proud of”, “Tell me about a time you solved a big problem in your company”, “Tell me about your biggest career failure and what you learned from it” и “Tell me about a time you had a conflict with a coworker or manager and how you approached it”) и по кажому вопросу опишите по 2-3 истории из своей карьеры (работы, учебы, пет-проджектов и т.д.). Это немалая инвестиция времени (от 15 часов точно), но вы точно не пожалеете!
+- Выделите десяток самых популярных вопросов (таких видео полно на ютубе, точно стоит включить: “Tell us about a project you are most proud of”, “Tell me about a time you solved a big problem in your company”, “Tell me about your biggest career failure and what you learned from it” и “Tell me about a time you had a conflict with a coworker or manager and how you approached it”) и по каждому вопросу опишите по 2-3 истории из своей карьеры (работы, учебы, пет-проджектов и т.д.). Это немалая инвестиция времени (от 15 часов точно), но вы точно не пожалеете!
 - В ответе можно придерживаться формата STAR – Situation, Task, Action, Result, легко гуглится.
 
 Ресурсы, которые помогли мне:
