@@ -5,7 +5,7 @@ image:
   teaser: 20221128-rus-abc-conjecture/teaser.png
 ---
 
-On the thrilling story anout the unpenetrable proof of the ABC conjecture which is one of the corner stones of the modern number theory. 
+On the thrilling story about the unpenetrable proof of the ABC conjecture which is one of the corner stones of the modern number theory. 
 
 Эта история не новая, завязалась она в 2012-ом и, как кажется, развязалась – в 2018-ом. Кто следил за историей доказательства abc-гипотезы, тот знает, о чем речь. Для остальных поведаю этот математический триллер, от которого любители математики могут почувствовать настоящий фриссон – тот самый мороз по коже. 
 
