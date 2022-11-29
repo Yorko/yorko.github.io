@@ -24,6 +24,7 @@ Then, create an [OpenAI account](https://beta.openai.com/signup) and an [OpenAI 
 
 
 ```python
+import json
 import openai
 
 # replace with your path 
