@@ -44,7 +44,7 @@ owner:
   twitter               : "ykashnitsky"
   github                : "Yorko"
   facebook              : "festline"
-  bio                   : "Yury Kashnitsky is a Principal Machine Learning Scientist, NLP practitioner, Ph.D. in applied math, leader of open Machine Learning course mlcourse.ai"
+  bio                   : "Yury Kashnitsky is a Principal Machine Learning Scientist, NLP practitioner, Ph.D. in applied math, and leader of the open Machine Learning course mlcourse.ai"
   avatar                : bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname      : yorko-github-io
 

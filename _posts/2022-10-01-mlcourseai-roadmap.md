@@ -5,7 +5,7 @@ image:
   teaser: 20221001-mlcourseai-roadmap/teaser.png
 ---
 
-[mlcourse.ai](https://mlcourse.ai) is an open Machine Learning course by OpenDataScience ([ods.ai](https://ods.ai), led by me. In 2017-2019, I've been leading active session of the course, offering essential theoretical ground and a ton of practice (assignments, Kaggle Inclass competitions, projects, etc.). All for free. Some 26k people participated, ~1500 finished the course, I got dozens of direct messages on how passing the course changed careers of [mlcourse.ai](https://mlcourse.ai)  alumni. Right now, the course in a self-paced mode, still has much to offer.
+[mlcourse.ai](https://mlcourse.ai) is an open Machine Learning course by OpenDataScience ([ods.ai](https://ods.ai), led by me. In 2017-2019, I've been leading active sessions of the course, offering essential theoretical ground and a ton of practice (assignments, Kaggle Inclass competitions, projects, etc.). All for free. Some 26k people participated, and ~1500 finished the course, I got dozens of direct messages on how passing the course changed the careers of [mlcourse.ai](https://mlcourse.ai)  alumni. Right now, the course is in a self-paced mode and still has much to offer.
 
 ***
 
@@ -15,9 +15,9 @@ If you prefer a video version, there it is:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CPlYV_DryEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-First, take a look at [course prerequisites](prerequisites). Be ready to spend around 3 months on passing the course, some 4-10 hours/week. Though it heavily depends on how much you will be willing to dive into Kaggle competitions (they are time-consuming but very rewarding in terms of skills) that we offer during this course. To get help, [join OpenDataScience](https://mlcourse.ai/contacts), discussions are held in the #mlcourse_ai Slack channel. For a general picture on what role all of Machine Learning plays in your would-be Data Science career, check the "Jump into Data Science" [video](https://youtu.be/FGuGg9F2VUs), it walks you through the preparation process for your first DS position once basic ML and Python are covered ([slides](https://www.slideshare.net/festline/how-to-jump-into-data-science)). In case you are already in DS, this course will be a good ML refresher. 
+First, take a look at [course prerequisites](prerequisites). Be ready to spend around 3 months on passing the course, some 4-10 hours/week. Though it heavily depends on how much you will be willing to dive into Kaggle competitions (they are time-consuming but very rewarding in terms of skills) that we offer during this course. To get help, [join OpenDataScience](https://mlcourse.ai/contacts), discussions are held in the #mlcourse_ai Slack channel. For a general picture of what role all Machine Learning plays in your would-be Data Science career, check the "Jump into Data Science" [video](https://youtu.be/FGuGg9F2VUs), it walks you through the preparation process for your first DS position once basic ML and Python are covered ([slides](https://www.slideshare.net/festline/how-to-jump-into-data-science)). In case you are already in DS, this course will be a good ML refresher. 
 
-Below we outline the 10 topics covered in the course, and give specific instructions on articles to read, lectures to watch, and assignments to crack. You can purchase a Bonus Assignments pack with the best non-demo versions of [mlcourse.ai](https://mlcourse.ai/) assignments. Select the ["Bonus Assignments" tier](https://www.patreon.com/ods_mlcourse) on Patreon or a [similar tier](https://boosty.to/ods_mlcourse/purchase/1142055?ssource=DIRECT&share=subscription_link) on Boosty (rus).
+Below we outline the 10 topics covered in the course and give specific instructions on articles to read, lectures to watch, and assignments to crack. You can purchase a Bonus Assignments pack with the best non-demo versions of [mlcourse.ai](https://mlcourse.ai/) assignments. Select the ["Bonus Assignments" tier](https://www.patreon.com/ods_mlcourse) on Patreon or a [similar tier](https://boosty.to/ods_mlcourse/purchase/1142055?ssource=DIRECT&share=subscription_link) on Boosty (rus).
 
 <div class="row">
   <div class="col-md-8" markdown="1">
@@ -55,7 +55,7 @@ You definitely want to immediately start with Machine Learning and see math in a
 1. Read the [article](https://mlcourse.ai/articles/topic1-exploratory-data-analysis-with-pandas/) (same in a form of a [Kaggle Notebook](https://www.kaggle.com/kashnitsky/topic-1-exploratory-data-analysis-with-pandas))
 2. (opt.) watch a [video lecture](https://youtu.be/fwWCw_cE5aI)
 3. Complete [demo assignment 1](https://www.kaggle.com/kashnitsky/assignment-1-pandas-and-uci-adult-dataset) where you'll be exploring demographic data (UCI "Adult"), and (opt.) check out the [solution](https://www.kaggle.com/kashnitsky/a1-demo-pandas-and-uci-adult-dataset-solution) 
-4. **[Bonus Assignment](https://www.patreon.com/ods_mlcourse):** here you'll be analyzing the history of Olympic Games with Pandas. Check the detailed description of the assignment [on the course page](https://mlcourse.ai/book/topic01/bonus_assignment01_pandas_olympics.html).
+4. **[Bonus Assignment](https://www.patreon.com/ods_mlcourse):** here you'll be analyzing the history of the Olympic Games with Pandas. Check the detailed description of the assignment [on the course page](https://mlcourse.ai/book/topic01/bonus_assignment01_pandas_olympics.html).
 
 ***
 
@@ -76,7 +76,7 @@ The role of visual data analysis is hard to overestimate, this is how new insigh
 
 ***
 
-#### Week 3. Classification, Decision Trees and k Nearest Neighbors
+#### Week 3. Classification, Decision Trees, and k Nearest Neighbors
 
 <div style="text-align:center"><img src="/images/20221001-mlcourseai-roadmap/topic3-teaser.png"  /></div>
 
@@ -87,7 +87,7 @@ Here we delve into machine learning and discuss two simple approaches to solving
  - the [theory](https://youtu.be/H4XlBTPv5rQ) behind decision trees, an intuitive explanation
  - [practice](https://youtu.be/RrVYO6Td9Js) with Sklearn decision trees
 3. Complete [demo assignment 3](https://www.kaggle.com/kashnitsky/assignment-3-decision-trees) on decision trees, and (opt.) check out the [solution](https://www.kaggle.com/kashnitsky/a3-demo-decision-trees-solution) 
-4. **[Bonus Assignment](https://www.patreon.com/ods_mlcourse):** here you'll be applying decision trees to cardiovascular decease data. In one more bonus assignment, a more challenging one, you'll be guided through an **implementation of a decision tree from scratch**. Check the detailed description of the assignment [on the course page](https://mlcourse.ai/book/topic03/bonus_assignment03_decision_trees.html#).
+4. **[Bonus Assignment](https://www.patreon.com/ods_mlcourse):** here you'll be applying decision trees to cardiovascular desease data. In one more bonus assignment, a more challenging one, you'll be guided through an **implementation of a decision tree from scratch**. Check the detailed description of the assignment [on the course page](https://mlcourse.ai/book/topic03/bonus_assignment03_decision_trees.html#).
 
 ***
 
@@ -95,7 +95,7 @@ Here we delve into machine learning and discuss two simple approaches to solving
 
 <div style="text-align:center"><img src="/images/20221001-mlcourseai-roadmap/topic4-teaser.png"  /></div>
 
-The following 5 articles may form a small brochure, and that's for a good reason: linear models are the most widely used family of predictive algorithms. These articles represent our course in a miniature: a lot of theory, a lot of practice. We discuss the theoretical basis of the Ordinary Least Squares method and logistic regression, as well as their merits in terms of practical applications. Also, crucial concepts like regularization and learning curves are introduced. In the practical part, we apply logistic regression to the [task](https://inclass.kaggle.com/c/catch-me-if-you-can-intruder-detection-through-webpage-session-tracking2) of user identification on the Internet, it's a Kaggle Inclass competition (a.k.a "Alice", we go on with this competition in Week 6).
+The following 5 articles may form a small brochure, and that's for a good reason: linear models are the most widely used family of predictive algorithms. These articles represent our course in miniature: a lot of theory, and a lot of practice. We discuss the theoretical basis of the Ordinary Least Squares method and logistic regression, as well as their merits in terms of practical applications. Also, crucial concepts like regularization and learning curves are introduced. In the practical part, we apply logistic regression to the [task](https://inclass.kaggle.com/c/catch-me-if-you-can-intruder-detection-through-webpage-session-tracking2) of user identification on the Internet, it's a Kaggle Inclass competition (a.k.a "Alice", we go on with this competition in Week 6).
 
 *It's better to admit that this week's material would rather take you 2-3 weeks to digest and practice, that's fine. But for consistency with article numbering, we stick to "Week 4" for this topic.*
 
@@ -132,7 +132,7 @@ Yet again, both theory and practice are exciting. We discuss why "wisdom of a cr
  - [part 2](https://www.youtube.com/watch?v=aBOMYqGUlWQ) on classification metrics
  - [business case](https://www.youtube.com/watch?v=FmKU-1LZGoE&feature=youtu.be), where we discuss a real classification task – predicting customer payment
 3. Complete [demo assignment 5](https://www.kaggle.com/kashnitsky/assignment-5-logit-and-rf-for-credit-scoring) where you compare logistic regression and Random Forest in the credit scoring problem, and (opt.) check out the [solution](https://www.kaggle.com/kashnitsky/a5-demo-logit-and-rf-for-credit-scoring-sol) 
-4. **[Bonus Assignment](https://www.patreon.com/ods_mlcourse):** here you'll be applying logistic regression and Random Forest in two different tasks, which will be great for your understanding of application scenarios of these two extremely popular algorithms. Check the detailed description of the assignment [on the course page](https://mlcourse.ai/book/topic05/bonus_assignment05_logreg_rf.html#).
+4. **[Bonus Assignment](https://www.patreon.com/ods_mlcourse):** here you'll be applying logistic regression and Random Forest in two different tasks, which will be great for your understanding of the application scenarios of these two extremely popular algorithms. Check the detailed description of the assignment [on the course page](https://mlcourse.ai/book/topic05/bonus_assignment05_logreg_rf.html#).
 
 ***
 
@@ -140,7 +140,7 @@ Yet again, both theory and practice are exciting. We discuss why "wisdom of a cr
 
 <div style="text-align:center"><img src="/images/20221001-mlcourseai-roadmap/topic6-teaser.png"  /></div>
 
-Feature engineering is one of the most interesting processes in the whole of ML. It's an art or at least craft and is therefore not yet well-automated. The article describes the ways of working with heterogeneous features in various ML tasks with texts, images, geodata, etc. Practice with the ["Alice" competition](https://www.kaggle.com/c/catch-me-if-you-can-intruder-detection-through-webpage-session-tracking2) is going to convince you how powerful feature engineering can be. And that it's a lot of fun as well!
+Feature engineering is one of the most interesting processes in the whole of ML. It's an art or at least a craft and is therefore not yet well-automated. The article describes the ways of working with heterogeneous features in various ML tasks with texts, images, geodata, etc. Practice with the ["Alice" competition](https://www.kaggle.com/c/catch-me-if-you-can-intruder-detection-through-webpage-session-tracking2) is going to convince you how powerful feature engineering can be. And that it's a lot of fun as well!
 
 
 1. Read the [article](https://mlcourse.ai/articles/topic6-features/) (same in a form of a [Kaggle Notebook](https://www.kaggle.com/kashnitsky/topic-6-feature-engineering-and-feature-selection))
@@ -170,7 +170,7 @@ Here we turn to the vast topic of unsupervised learning, it's about the cases wh
 
 <div style="text-align:center"><img src="/images/20221001-mlcourseai-roadmap/topic8-teaser.png"  /></div>
 
- The theoretical part here covert the analysis of Stochastic Gradient Descent, it was this optimization method that made it possible to successfully train both neural networks and linear models on really large training sets. Here we also discuss what can be done in cases of millions of features in a supervised learning task ("hashing trick") and move on to Vowpal Wabbit, a utility which allows you to train a model with gigabytes of data in a matter of minutes, and sometimes of acceptable quality. We consider several cases including StackOverflow questions tagging with a training set of several gigabytes. 
+ The theoretical part here covert the analysis of Stochastic Gradient Descent, it was this optimization method that made it possible to successfully train both neural networks and linear models on really large training sets. Here we also discuss what can be done in cases of millions of features in a supervised learning task ("hashing trick") and move on to Vowpal Wabbit, a utility that allows you to train a model with gigabytes of data in a matter of minutes, and sometimes of acceptable quality. We consider several cases including StackOverflow questions tagging with a training set of several gigabytes. 
 
 1. Read the [article](https://mlcourse.ai/articles/topic8-sgd-vw/) (same in a form of a [Kaggle Notebook](https://www.kaggle.com/kashnitsky/topic-7-unsupervised-learning-pca-and-clustering))
 2. (opt.) watch a video lecture coming in 2 parts:
@@ -189,14 +189,14 @@ Here we discuss various approaches to work with time series: what data preparati
  - ["Time series analysis in Python"](https://mlcourse.ai/articles/topic9-part1-time-series/) (same in a form of a [Kaggle Notebook](https://www.kaggle.com/kashnitsky/topic-9-part-1-time-series-analysis-in-python))
  - ["Predicting future with Facebook Prophet"](https://mlcourse.ai/articles/topic9-part2-prophet/) (same in a form of a [Kaggle Notebook](https://www.kaggle.com/kashnitsky/topic-9-part-2-time-series-with-facebook-prophet))
 2. (opt.) watch a [video lecture](https://youtu.be/_9lBwXnbOd8)
-3. Complete [demo assignment 9](https://www.kaggle.com/kashnitsky/assignment-9-time-series-analysis) where you'll get hands dirty with ARIMA and Prophet, and (opt.) check out the [solution](https://www.kaggle.com/kashnitsky/a9-demo-time-series-analysis-solution)
+3. Complete [demo assignment 9](https://www.kaggle.com/kashnitsky/assignment-9-time-series-analysis) where you'll get your hands dirty with ARIMA and Prophet, and (opt.) check out the [solution](https://www.kaggle.com/kashnitsky/a9-demo-time-series-analysis-solution)
 4. **[Bonus Assignment](https://www.patreon.com/ods_mlcourse):** here we are attacking a times series prediction task with a method that has proven to be working well in practice providing quality comparable to ARIMA models. Namely, feature engineering, feature selection and linear models. Check the detailed description of the assignment [on the course page](https://mlcourse.ai/book/topic09/bonus_assignment09.html#).
 
 #### Week 10. Gradient Boosting   
 
 <div style="text-align:center"><img src="/images/20221001-mlcourseai-roadmap/topic10-teaser.jpeg"  /></div>
 
-Gradient boosting is one of the most prominent Machine Learning algorithms, it founds a lot of industrial applications. For instance, the Yandex search engine is a big and complex system with gradient boosting (MatrixNet) somewhere deep inside. Many recommender systems are also built on boosting. It is a very versatile approach applicable to classification, regression, and ranking. Therefore, here we cover both theoretical basics of gradient boosting and specifics of most wide-spread implementations – Xgboost, LightGBM, and Catboost.
+Gradient boosting is one of the most prominent Machine Learning algorithms, it founds a lot of industrial applications. For instance, the Yandex search engine is a big and complex system with gradient boosting (MatrixNet) somewhere deep inside. Many recommender systems are also built on boosting. It is a very versatile approach applicable to classification, regression, and ranking. Therefore, here we cover both the theoretical basics of gradient boosting and specifics of the most wide-spread implementations – Xgboost, LightGBM, and Catboost.
 
 1. Read the [article](https://mlcourse.ai/articles/topic10-boosting/) (same in a form of a [Kaggle Notebook](https://www.kaggle.com/kashnitsky/topic-10-gradient-boosting))
 2. (opt.) watch a video lecture coming in 2 parts:

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "How Vladimir Vapnik lost a fancy dinner to Yann LeCun"
+title: "How Vladimir Vapnik lost a fancy dinner in a bet witnessed by Yann LeCun"
 image:
   teaser: 20221109-vapnik-jackel-bet/teaser.png
 ---
