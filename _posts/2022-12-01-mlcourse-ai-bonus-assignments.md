@@ -6,21 +6,21 @@ image:
 ---
 
 ​
-Here we cover the best assignments of [mlcourse.ai](https://mlcourse.ai) – an open and free Machine Learning course with a good balance of theory and practice. The course is available for free in a self-paced mode, however the best assignments are shared with [Patreon](https://www.patreon.com/ods_mlcourse) and [Boosty](https://boosty.to/ods_mlcourse) supporters. 
+Here we cover the best assignments of [mlcourse.ai](https://mlcourse.ai) – an open and free Machine Learning course with a good balance of theory and practice. The course is available for free in a self-paced mode, however, the best assignments are shared with [Patreon](https://www.patreon.com/ods_mlcourse) and [Boosty](https://boosty.to/ods_mlcourse) supporters. 
 
 <div style="text-align:center"><img src="/images/20221201-mlcourse-ai-bonus-assignments/feynmann_quote.jpg" width=500px /></div>
 
 
-Citing the legend, "what you cannot create, you do not understand". Thus, several of the bonus assignments are focused on the implementation of decision trees, random forest, SGD and gradient boosting from scratch. 
+Citing the legend, "what you cannot create, you do not understand". Thus, several of the bonus assignments are focused on the implementation of decision trees, random forest, SGD, and gradient boosting from scratch. 
 
-Also, we put stress on practice with Kaggle competitions, and in 2 more assignments you are guided in beating baselines in Kaggle Inclass competitions (["Alice"](https://www.kaggle.com/competitions/catch-me-if-you-can-intruder-detection-through-webpage-session-tracking2) and ["Medium"](https://www.kaggle.com/competitions/how-good-is-your-medium-article)). 
+Also, we put stress on practice with Kaggle competitions, and in 2 more assignments, you are guided in beating baselines in Kaggle Inclass competitions (["Alice"](https://www.kaggle.com/competitions/catch-me-if-you-can-intruder-detection-through-webpage-session-tracking2) and ["Medium"](https://www.kaggle.com/competitions/how-good-is-your-medium-article)). 
 
 Let's go through some of the assignments in a bit more detail.
 
 ## Implementing Decision Trees
 
 
-Here we'll go through the math and code behind decision trees applied to the regression problem, some toy examples will help with that. It is good to understand this because the regression tree is the key component of the gradient boosting algorithm which we cover in the end of the course.
+Here we'll go through the math and code behind decision trees applied to the regression problem, some toy examples will help with that. It is good to understand this because the regression tree is the key component of the gradient boosting algorithm which we cover at the end of the course.
 
 <p float="left">
   <img src="/images/20221201-mlcourse-ai-bonus-assignments/assignment03_decision_trees_solution_10_0.png" width="350" />
@@ -44,7 +44,7 @@ In one more bonus assignment, a more challenging one, you'll be guided through a
 
 ## Logistic regression vs. Random Forest
 
-In bonus assignment 5, you'll implement a simplified version of Random Forest classifier and apply logistic regression and Random Forest in two different tasks – credit scoring and movie reviews classification. This will be great for your understanding of application scenarios of these two extremely popular algorithms. You’ll also learn the hard way that Random Forest should not be used in case of very large dimensions.
+In bonus assignment 5, you'll implement a simplified version of the Random Forest classifier and apply logistic regression and Random Forest in two different tasks – credit scoring and movie reviews classification. This will be great for your understanding of the application scenarios of these two extremely popular algorithms. You’ll also learn the hard way that Random Forest should not be used in case of very large dimensions.
 
 ## Implementing Stochastic Gradient Descent classifier and regressor
 
@@ -66,9 +66,9 @@ Finally, we implement both an SGD regressor and an SGD classifier from scratch a
 
 ## Implementing Gradient boosting
 
-Gradient boosting is one of the most prominent Machine Learning algorithms, it finds a lot of industrial applications. For instance, the Yandex search engine is a big and complex system with gradient boosting (MatrixNet) somewhere deep inside. Many recommender systems are also built on boosting. It is a very versatile approach applicable to classification, regression, and ranking. Therefore, [in the course](https://mlcourse.ai/book/topic10/topic10_intro.html), we cover both theoretical basics of gradient boosting and specifics of most widespread implementations – Xgboost, LightGBM, and Catboost.
+Gradient boosting is one of the most prominent Machine Learning algorithms, it finds a lot of industrial applications. For instance, the Yandex search engine is a big and complex system with gradient boosting (MatrixNet) somewhere deep inside. Many recommender systems are also built on boosting. It is a very versatile approach applicable to classification, regression, and ranking. Therefore, [in the course](https://mlcourse.ai/book/topic10/topic10_intro.html), we cover both the theoretical basics of gradient boosting and specifics of the most widespread implementations – Xgboost, LightGBM, and Catboost.
 
-And this assignment, we go through the math and implement the general gradient boosting algorithm from scratch (by the way, one of the popular ML interview questions is "Where do you find gradients in gradient boosting?"). The same class will implement a binary classifier that minimizes the logistic loss function and two regressors that minimize the mean squared error (MSE) and the root mean squared logarithmic error (RMSLE). This way, we will see that we can optimize arbitrary differentiable functions using gradient boosting and how this technique adapts to different contexts. Here is one of the questions:
+In this assignment, we go through the math and implement the general gradient boosting algorithm from scratch (by the way, one of the popular ML interview questions is "Where do you find gradients in gradient boosting?"). The same class will implement a binary classifier that minimizes the logistic loss function and two regressors that minimize the mean squared error (MSE) and the root mean squared logarithmic error (RMSLE). This way, we will see that we can optimize arbitrary differentiable functions using gradient boosting and how this technique adapts to different contexts. Here is one of the questions:
 
 <div align="center">
 <img src="/images/20221201-mlcourse-ai-bonus-assignments/assignment10_teaser_math.png" width=600px/>
@@ -86,7 +86,7 @@ _Residuals at each gradient boosting iteration and the corresponding tree predic
 
 In this assignment, you’ll be guided through working with sparse data, feature engineering, model validation, and the process of competing on Kaggle. The task will be to beat baselines in the “Alice” [Kaggle competition](https://www.kaggle.com/c/catch-me-if-you-can-intruder-detection-through-webpage-session-tracking2). That’s a very useful assignment for anyone starting to practice with Machine Learning, regardless of the desire to compete on Kaggle.
 
-The competition is about identifying a user ("Alice") on the Internet through tracking her web sessions, it's based on the actual data from one French University. The competition turned out to be very successful, in a sense that the task can be solved well with fairly simple models (literally, logistic regression), and extensive feature engineering.
+The competition is about identifying a user ("Alice") on the Internet by tracking her web sessions, it's based on the actual data from one French University. The competition turned out to be very successful, in the sense that the task can be solved well with fairly simple models (literally, logistic regression), and extensive feature engineering.
 
 <div align="center">
 <img src="/images/20221201-mlcourse-ai-bonus-assignments/topic6-teaser.png" />
@@ -101,7 +101,7 @@ In this task, we arm you with a fairly well-performing baseline, and then you ar
 
 In this assignment, you'll be challenged to beat a baseline in the competition where the goal is to predict the popularity of a Medium article. For this purpose, you'll be provided with instructions on extracting features from raw JSON files, such as title, author, content, etc. as well as some time-based features.
 
-Here it's much closer to real-world Data Science, where you spend time fussing with JSONs extracting features, and waiting while the model is being trained. At the same time, just like with the "Alice" competition feature engineering is the key, and that's fun.
+Here it's much closer to real-world Data Science, where you spend time fussing with JSONs extracting features, and waiting while the model is being trained. At the same time, just like with the "Alice" competition, feature engineering is the key, and that's fun.
 
 ----
 

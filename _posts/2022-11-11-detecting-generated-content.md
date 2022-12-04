@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "How I helped organizing the COLING track on the detection of generated scientific content"
+title: "How I helped organize the COLING track on the detection of generated scientific content"
 image:
   teaser: 20221111-detecting-generated-content/teaser.png
 ---
 
-Apparently, GPT-3 and other language models are so advanced now that generated content, sometimes non-sensical, is bypassing the peer-review process and is being published by Elsevier, Springer Nature and other publishers. Is there anything that we can do to protect the sanity of scientific content? In this post, I share my experience creating an academic competition (hosted as a COLING workshop Shared Task) and reflect on the immense complexity of the challenge at hand.
+Apparently, GPT-3 and other language models are so advanced now that generated content, sometimes non-sensical, is bypassing the peer-review process and is being published by Elsevier, Springer Nature, and other publishers. Is there anything that we can do to protect the sanity of scientific content? In this post, I share my experience creating an academic competition (hosted as a COLING workshop Shared Task) and reflect on the immense complexity of the challenge at hand.
 
 ## Mathgen and SCIgen
 
@@ -45,7 +45,7 @@ Here are some more examples.
 ![*Sometimes, no doubt, the paper is fraudulent.*](/images/20221111-detecting-generated-content/some_more_tortured_phrases.png)
 *Sometimes, no doubt, the paper is fraudulent.*
 
-Guillaume Cabanac, Cyril Labbe, and Alexander Magazinov did an investigation of this phenomenon and found quite a few “tortured phrases” in the published scientific literature. In the [paper](https://arxiv.org/abs/2107.06751) titled “Tortured phrases: A dubious writing style emerging in science. Evidence of critical issues affecting established journals” they openly call the main publishers for investigation of the problem. In particular, they explored Elsevier’s “Microprocessors and Microsystems” which experienced a radical change in the number of articles published per volume, together with a considerable shortage of decision times for these articles.  This journal had allegedly been attacked by a “[paper mill](https://www.nature.com/articles/d41586-021-00733-5)” - the authors found a prevalence of tortured phrases in 2020 and later issues of the journal, and they also run [GPT-2 detector](https://github.com/openai/gpt-2-output-dataset) and found that concentration
+Guillaume Cabanac, Cyril Labbé, and Alexander Magazinov did an investigation of this phenomenon and found quite a few “tortured phrases” in the published scientific literature. In the [paper](https://arxiv.org/abs/2107.06751) titled “Tortured phrases: A dubious writing style emerging in science. Evidence of critical issues affecting established journals” they openly call the main publishers to investigate the problem. In particular, they explored Elsevier’s “Microprocessors and Microsystems” which experienced a radical change in the number of articles published per volume, together with a considerable shortage of decision times for these articles.  This journal had allegedly been attacked by a “[paper mill](https://www.nature.com/articles/d41586-021-00733-5)” - the authors found a prevalence of tortured phrases in 2020 and later issues of the journal, and they also run [GPT-2 detector](https://github.com/openai/gpt-2-output-dataset) and found that the concentration
 of articles with high GPT-2 scores is outstanding in *Microprocessors and Microsystems.* 
 
 One possible source of tortured phrases is [Spinbot.com](http://Spinbot.com) – a paraphrasing tool. Although the connection with GPT-2 is not yet explored, might be that Spinbot uses GPT-2 under the hood, and thus tortured phrases go together with GPT-2 generated content. 
@@ -81,7 +81,7 @@ As part of the shared task hosted within the third workshop on Scholarly Documen
 ![Untitled](/images/20221111-detecting-generated-content/competition_background_image.png)
 *Kaggle competition page.*
 
-To form training and validation data for the competition, with Dasha's help, I took excerpts from the retracted “Microprocessors and Microsystems” papers discussed above, and some more content that is most probably human-written. Then I used several summarization, paraphrasing, and generating Deep Learning models to create more “fake” content based on the human-written original abstracts. 
+To form training and validation data for the competition, with Dasha's help, I took excerpts from the retracted “Microprocessors and Microsystems” papers discussed above and some more content that is most probably human-written. Then I used several summarization, paraphrasing, and generating Deep Learning models to create more “fake” content based on the human-written original abstracts. 
 
 Specifically, the data for this competition came from 9 sources:
 
@@ -99,7 +99,7 @@ This resulted in 5300 records in the training set and ~21k records in the test s
 
 As an organizer, I provided a simple baseline: [Tf-Idf & logistic regression](https://www.kaggle.com/code/kashnitsky/fake-papers-tf-idf-logistic-regression-baseline) that hits an 82% F1 score with the public competition test set. 
 
-I also explored, how accurate this simple model classifies different data sources (e.g. summarized content as opposed to the original human-generated content), the following table shows validation accuracy split by data provenance type.
+I also explored, how accurately this simple model classifies different data sources (e.g. summarized content as opposed to the original human-generated content), the following table shows validation accuracy split by data provenance type.
 
 ![*Fake papers validation scores*](/images/20221111-detecting-generated-content/valid_scores_by_data_type.png)
 *Fake papers validation scores, by data provenance type.*
@@ -125,17 +125,17 @@ It is a bit unfortunate that the competition task turned out to be easy to solve
 
 ## What’s next
 
-We will be enforcing our efforts on the detection of tortured phrases and generated content in published content as well as submitted manuscripts. There are still ~1600 papers published by Elsevier that are hanging there in the [Problematic Papers Screener](https://www.irit.fr/~Guillaume.Cabanac/problematic-paper-screener) “Tortured Phrases” dashboard waiting for investigation. And more ”tortured phrases” can be discovered. 
+We will be enforcing our efforts on the detection of tortured phrases and generated content in published content as well as submitted manuscripts. There are still ~1600 papers published by Elsevier that are hanging there in the [Problematic Papers Screener](https://www.irit.fr/~Guillaume.Cabanac/problematic-paper-screener) “Tortured Phrases” dashboard waiting for an investigation. And more ”tortured phrases” can be discovered. 
 
-I also agreed with Domenic Rosati (scite.ai) and Cyril Labbe (Université Grenoble Alpes) to organize the next version of a similar competition, to be hosted by COLING 2023 Scholarly Document Processing workshop.  
+I also agreed with Domenic Rosati (scite.ai) and Cyril Labbé (Université Grenoble Alpes) to organize the next version of a similar competition, to be hosted by COLING 2023 Scholarly Document Processing workshop.  
 
 The task is daunting, too challenging to have anything productionized within the coming 2-3 years, but we plan to work on it anyway and make progress.
 
 ## The team involved
 
-Yury Kashnitsky, Drahomira Herrmannova, Anita de Waard, George Tsatsaronis, Catriona Fennell.
+Yury Kashnitsky, Drahomira Herrmannova, Anita de Waard, George Tsatsaronis, and Catriona Fennell.
 
-Cyril Labbe, researcher at Université Grenoble Alpes, co-author of the [paper](https://arxiv.org/abs/2107.06751) on tortured phrases.
+Cyril Labbé, a researcher at Université Grenoble Alpes, co-author of the [paper](https://arxiv.org/abs/2107.06751) on tortured phrases.
 
 ## Links
 

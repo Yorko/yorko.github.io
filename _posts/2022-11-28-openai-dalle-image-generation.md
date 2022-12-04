@@ -11,7 +11,7 @@ With the OpenAI beta-version of [image generation API](https://beta.openai.com/d
 
 The [tutorial](https://beta.openai.com/docs/guides/images/introduction) is easy to follow but still, here's mine.
 
-First, install python PyPi package [openai](https://pypi.org/project/openai/). 
+First, install the python PyPi package [openai](https://pypi.org/project/openai/). 
 
 
 ```bash
