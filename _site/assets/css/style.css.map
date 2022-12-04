@@ -3,13 +3,13 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
-		"../../../../../private/var/folders/4z/y80ms1vs4yq74kf1_wfkqm580000gp/T/jekyll-remote-theme-20221204-4258-6id9us/_sass/minima/skins/classic.scss",
-		"../../../../../private/var/folders/4z/y80ms1vs4yq74kf1_wfkqm580000gp/T/jekyll-remote-theme-20221204-4258-6id9us/_sass/minima/skins/auto.scss",
-		"../../../../../private/var/folders/4z/y80ms1vs4yq74kf1_wfkqm580000gp/T/jekyll-remote-theme-20221204-4258-6id9us/_sass/minima/initialize.scss",
-		"../../../../../private/var/folders/4z/y80ms1vs4yq74kf1_wfkqm580000gp/T/jekyll-remote-theme-20221204-4258-6id9us/_sass/minima/custom-variables.scss",
-		"../../../../../private/var/folders/4z/y80ms1vs4yq74kf1_wfkqm580000gp/T/jekyll-remote-theme-20221204-4258-6id9us/_sass/minima/_base.scss",
-		"../../../../../private/var/folders/4z/y80ms1vs4yq74kf1_wfkqm580000gp/T/jekyll-remote-theme-20221204-4258-6id9us/_sass/minima/_layout.scss",
-		"../../../../../private/var/folders/4z/y80ms1vs4yq74kf1_wfkqm580000gp/T/jekyll-remote-theme-20221204-4258-6id9us/_sass/minima/custom-styles.scss"
+		"../../../../../private/var/folders/4z/y80ms1vs4yq74kf1_wfkqm580000gp/T/jekyll-remote-theme-20221204-4789-ddrerc/_sass/minima/skins/classic.scss",
+		"../../../../../private/var/folders/4z/y80ms1vs4yq74kf1_wfkqm580000gp/T/jekyll-remote-theme-20221204-4789-ddrerc/_sass/minima/skins/auto.scss",
+		"../../../../../private/var/folders/4z/y80ms1vs4yq74kf1_wfkqm580000gp/T/jekyll-remote-theme-20221204-4789-ddrerc/_sass/minima/initialize.scss",
+		"../../../../../private/var/folders/4z/y80ms1vs4yq74kf1_wfkqm580000gp/T/jekyll-remote-theme-20221204-4789-ddrerc/_sass/minima/custom-variables.scss",
+		"../../../../../private/var/folders/4z/y80ms1vs4yq74kf1_wfkqm580000gp/T/jekyll-remote-theme-20221204-4789-ddrerc/_sass/minima/_base.scss",
+		"../../../../../private/var/folders/4z/y80ms1vs4yq74kf1_wfkqm580000gp/T/jekyll-remote-theme-20221204-4789-ddrerc/_sass/minima/_layout.scss",
+		"../../../../../private/var/folders/4z/y80ms1vs4yq74kf1_wfkqm580000gp/T/jekyll-remote-theme-20221204-4789-ddrerc/_sass/minima/custom-styles.scss"
 	],
 	"sourcesContent": [
 		"@import\n  \"minima/skins/classic\",\n  \"minima/initialize\";\n",
