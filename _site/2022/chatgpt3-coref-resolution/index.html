@@ -44,6 +44,8 @@ Here I’m trying to discover ChatGPT’s weaknesses and test its ability to res
 
     
 
+    <!--  -->
+
   </head>
 
   <body id="js-body">
@@ -141,7 +143,7 @@ Here I’m trying to discover ChatGPT’s weaknesses and test its ability to res
 
 <h2 id="chatgpt-and-a-kaggle-pronoun-resolution-task">chatGPT and a Kaggle pronoun resolution task</h2>
 
-<p>I decided to test the chatbot in the coreference resolution task. This was the first Kaggle competition where people started using BERT-like models. I clearly remember how we fiddled with all sorts of old school models, until Matei Iinota (a would-be first author of our <a href="https://arxiv.org/abs/1906.01161">research paper</a> based on the competiiton) smashed the leaderboard by posting <a href="https://www.kaggle.com/code/mateiionita/taming-the-bert-a-baseline">a BERT-based solution</a> (no HuggingFace back then, the solution was based on Google’s BERT <a href="https://github.com/google-research/bert">source code</a> in TensorFlow).</p>
+<p>I decided to test the chatbot in the coreference resolution task. This was the first Kaggle competition where people started using BERT-like models. I clearly remember how we fiddled with all sorts of old school models until Matei Iinota (a would-be first author of our <a href="https://arxiv.org/abs/1906.01161">research paper</a> based on the competition) smashed the leaderboard by posting <a href="https://www.kaggle.com/code/mateiionita/taming-the-bert-a-baseline">a BERT-based solution</a> (no HuggingFace back then, the solution was based on Google’s BERT <a href="https://github.com/google-research/bert">source code</a> in TensorFlow).</p>
 
 <div style="text-align:center"><img src="/images/20221204-chatgpt3-coref-resolution/coref_resolution.png" width="500px" /></div>
 <p><em>Part of the Gendered Pronoun Resolution competition description. <a href="https://www.kaggle.com/competitions/gendered-pronoun-resolution/overview">Source</a>.</em></p>
@@ -153,7 +155,7 @@ Here I’m trying to discover ChatGPT’s weaknesses and test its ability to res
 
 <p>try to figure out that the pronoun “her” refers to Lucy.</p>
 
-<p>A similar example, but a bit more more complicated example:</p>
+<p>A similar example, but a bit more complicated example:</p>
 <blockquote>
   <p>“Lucy went to the Maria. Her dog stayed at home”.</p>
 </blockquote>
@@ -171,22 +173,22 @@ Here I’m trying to discover ChatGPT’s weaknesses and test its ability to res
 <p>In the competition, we needed to perform coreference resolution only for pronouns, and thus the task type was pronoun resolution.</p>
 
 <div style="text-align:center"><img src="/images/20221204-chatgpt3-coref-resolution/gap_dev_set.png" width="600px" /></div>
-<p><em>First 5 rows of the <a href="https://www.kaggle.com/competitions/gendered-pronoun-resolution/overview">GAP development set</a>. A Wikipedia text excerpt is given, with a pronoun <code class="language-plaintext highlighter-rouge">Pronoun</code> and its char offset, named entities <code class="language-plaintext highlighter-rouge">A</code> and <code class="language-plaintext highlighter-rouge">B</code> with their offsets, and binary flags <code class="language-plaintext highlighter-rouge">A-coref</code> and <code class="language-plaintext highlighter-rouge">B-coref</code> - whether the pronoun referes to A, B, or neither of them.</em></p>
+<p><em>First 5 rows of the <a href="https://www.kaggle.com/competitions/gendered-pronoun-resolution/overview">GAP development set</a>. A Wikipedia text excerpt is given, with the pronoun <code class="language-plaintext highlighter-rouge">Pronoun</code> and its char offset, named entities <code class="language-plaintext highlighter-rouge">A</code> and <code class="language-plaintext highlighter-rouge">B</code> with their offsets, and binary flags <code class="language-plaintext highlighter-rouge">A-coref</code> and <code class="language-plaintext highlighter-rouge">B-coref</code> - whether the pronoun refers to A, B, or neither of them.</em></p>
 
 <p>In such a problem setup, vanilla BERT without fine-tuning hits 76% accuracy. later in the competition, we saw that an ensemble of fine-tuned BERTs pushes this closer to 98%.</p>
 
-<p>I built up some patience and fed a 100 examples from this Kaggle problem into chatGPT3 uin a format</p>
+<p>I built up some patience and fed 100 examples from this Kaggle problem into chatGPT3 in a format</p>
 <blockquote>
   <p>“{Text}. Does ‘{Pronoun}’ at an offset of {offset} chars refer to {A} or {B}?”.</p>
 </blockquote>
 
-<p>The result? Far from a fine-tuned BERT, but chatGPT hit 76% accuracy, same as BERT that was not fine-tuned for the task (and 69% micro F1 score, comparable to un-fine-tuned BERT, just a bit less).</p>
+<p>The result? Far from a fine-tuned BERT, but chatGPT hit 76% accuracy, the same as BERT that was not fine-tuned for the task (and 69% micro F1 score, comparable to un-fine-tuned BERT, just a bit less).</p>
 
-<p>I was pleased to seethat chatGPT3 tried to explain why it believes that the pronoun refers to one person, and not to another.</p>
+<p>I was pleased to see that chatGPT3 tried to explain why it believes that the pronoun refers to one person, and not to another.</p>
 
 <div style="text-align:center"><img src="/images/20221204-chatgpt3-coref-resolution/gpt3_explaining_its_inference.png" width="700px" /></div>
 
-<p>In such a zero-shot problem statement, that’s a fairly good no-code solution. isn’t it? At least when compared to vanilla BERT (which we treat as something given now in 2022) which also required the whole Kaggle community to tinker for some couple of weeks back then in 2018.</p>
+<p>In such a zero-shot problem statement, that’s a fairly good no-code solution. isn’t it? At least when compared to vanilla BERT (which we treat as something given now in 2022) which also required the whole Kaggle community to tinker for a couple of weeks back then in 2018.</p>
 
 <p>It will be interesting to check chatGPT3 with <a href="https://en.wikipedia.org/wiki/Winograd_schema_challenge">Winograd schemes</a>, simple examples in which the reader (either a human or an algorithm) needs both knowledge and commonsense reasoning to perform anaphora resolution. Example:</p>
 <blockquote>
@@ -197,7 +199,7 @@ Here I’m trying to discover ChatGPT’s weaknesses and test its ability to res
 
 <h2 id="chatgpt-cracking-mlcourseai-assignments">chatGPT cracking mlcourse.ai assignments</h2>
 
-<p>I also found that chatGPT3 scores 7/10 in the <a href="https://mlcourse.ai/book/topic01/assignment01_pandas_uci_adult.html">1st mlcourse.ai demo assignment</a>. It generates valid code with comments, although sometimes things can be done much simpler. It struggles though with generalization, e.g. answering “are there more men than women?” once the numbers are there.</p>
+<p>I also found that chatGPT3 scored 7/10 in the <a href="https://mlcourse.ai/book/topic01/assignment01_pandas_uci_adult.html">1st mlcourse.ai demo assignment</a>. It generates valid code with comments, although sometimes things can be done much simpler. It struggles though with generalization, e.g. answering “are there more men than women?” once the numbers are there.</p>
 
 <div style="text-align:center"><img src="/images/20221204-chatgpt3-coref-resolution/chatgpt_mlcourse_a1_q1.png" width="700px" /></div>
 
@@ -207,7 +209,7 @@ Here I’m trying to discover ChatGPT’s weaknesses and test its ability to res
 
 <h2 id="conclusion">Conclusion</h2>
 
-<p>I’ll go on fiddling with chatGPT but the intermediate conclusion is quite philosophical. In the past, when I heard “AI”, I’d always stress that we, ML-specialists, are dealing with machine learning, and not “artificial intelligence”. “AI for advanced If-Else”, “matrix multiplication” will conquer the world, and all sorts of similar jokes. Now I’ll be more humble with such reservations, we can already see how machine learning leads to actual (weak) artificial intelligence. CAt some point they’ll model commonsense reasoning, tie together language, voice, photo- and video models, add knowledge graphs, databases and Internet access plus some technologies that we are not aware of yet - and wow, it’s hard to imagine what the outcome will be.</p>
+<p>I’ll go on fiddling with chatGPT but the intermediate conclusion is quite philosophical. In the past, when I heard “AI”, I’d always stress that we, ML specialists, are dealing with machine learning, and not “artificial intelligence”. “AI for advanced If-Else”, “matrix multiplication” will conquer the world and all sorts of similar jokes. Now I’ll be more humble with such reservations, we can already see how machine learning leads to actual (weak) artificial intelligence. At some point, they’ll model commonsense reasoning, tie together language, voice, photo- and video models, add knowledge graphs, databases, and Internet access plus some technologies that we are not aware of yet - and wow, it’s hard to imagine what the outcome will be. Exciting times!</p>
 
 
 				<hr />
