@@ -1,5 +1,5 @@
-# site biulds
-#_site
+# site builds
+_site
 .sass-cache
 .jekyll-metadata
 
