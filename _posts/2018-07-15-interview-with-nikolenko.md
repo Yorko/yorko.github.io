@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "[RUS] A talk with Sergey Nikolenko"
+title: "[RU] A talk with Sergey Nikolenko"
 image:
   teaser: interview_series/nikolenko.jpg
 ---

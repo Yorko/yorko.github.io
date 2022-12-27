@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "[RUS] Lost in Hodge theaters: the ABC-conjecture thriller "
+title: "[RU] Lost in Hodge theaters: the ABC-conjecture thriller "
 image:
   teaser: 20221128-rus-abc-conjecture/teaser.png
 ---

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "[RUS] Machine Learning LEGO blocks"
+title: "[RU] Machine Learning LEGO blocks"
 image:
   teaser: 20210804-ml-lego-blocks/teaser.png
 ---

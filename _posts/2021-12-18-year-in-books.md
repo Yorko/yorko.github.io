@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "[RUS] My 2021 in books"
+title: "[RU] My 2021 in books"
 image:
   teaser: 20211218-year-in-books/teaser.png
 ---

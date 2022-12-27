@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "[RUS] On BigTech, soft skills and English speaking"
+title: "[RU] On BigTech, soft skills and English speaking"
 image:
   teaser: 20221115-rus-behavioral-and-english/teaser.jpg
 ---

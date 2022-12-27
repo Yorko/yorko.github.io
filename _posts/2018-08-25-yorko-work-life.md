@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "[RUS] Yury Kashnitsky: work and life"
+title: "[RU] Yury Kashnitsky: work and life"
 image:
   teaser: 20180825-yorko-work-life/teaser.png
 ---

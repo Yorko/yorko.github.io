@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "[RUS] A talk with Alexander Dyakonov"
+title: "[RU] A talk with Alexander Dyakonov"
 image:
   teaser: interview_series/dyakonov.jpg
 ---

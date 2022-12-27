@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "[RUS] A talk with Evgeniy Sokolov"
+title: "[RU] A talk with Evgeniy Sokolov"
 image:
   teaser: interview_series/sokolov.jpg
 ---

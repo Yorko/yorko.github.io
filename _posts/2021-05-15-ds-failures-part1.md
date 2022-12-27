@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "[RUS] Data Science failures - part 1"
+title: "[RU] Data Science failures - part 1"
 image:
   teaser: 20210515-ds-failures-part1/teaser.jpeg
 ---

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "[RUS] A talk with Emeli Dral and Victor Kantor"
+title: "[RU] A talk with Emeli Dral and Victor Kantor"
 image:
   teaser: interview_series/dral_kantor.jpg
 ---

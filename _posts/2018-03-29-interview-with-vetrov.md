@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "[RUS] a talk with Dmitry Vertrov"
+title: "[RU] a talk with Dmitry Vertrov"
 image:
   teaser: interview_series/vetrov_teaser.jpeg
 ---
