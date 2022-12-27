@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "[RUS] A talk with Konstantin Vorontsov"
+title: "[RU] A talk with Konstantin Vorontsov"
 image:
   teaser: interview_series/vorontsov.jpg
 ---

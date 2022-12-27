@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "[RUS] Avoiding elderly poverty: a mini-course by Prof. Lipsitz"
+title: "[RU] Avoiding elderly poverty: a mini-course by Prof. Lipsitz"
 image:
   teaser: 20211114-avoiding-elderly-poverty/teaser.png
 

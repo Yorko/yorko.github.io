@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "[RUS] A talk with Aira Mongush: Netherlands, Kaggle, mlcourse.ai, imposter syndrom"
+title: "[RU] A talk with Aira Mongush: Netherlands, Kaggle, mlcourse.ai, imposter syndrom"
 image:
   teaser: 20210920-interview-with-aira/teaser.jpg
 ---
