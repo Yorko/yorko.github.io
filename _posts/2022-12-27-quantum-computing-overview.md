@@ -11,6 +11,7 @@ I would like to share what I learned about the world of quantum computing while 
 
 I'm a geek, I enjoy learning new, cool, and challenging stuff. QC is somewhere in between physics, mathematics, and computer science – it’s hard to grasp, exciting and thus perfectly satisfies my criteria of a domain to be studied by a nerd for fun. Although I did take a mind-boggling quantum physics course at MIPT some 10 years ago, it’s all weathered now, and I never made my way through [Preskill's lectures](http://theory.caltech.edu/~preskill/ph229/). Thus, saw an additional challenge in the whole complexity of the field, but still believed that I am able to understand the fundamentals in a matter of several months.
 
+
 <div style="text-align:center"><img src="/images/20221227-quantum-computing-overview/max_plank_meme_eng.jpg" width=500px /></div>
 
 Many authorities claim that QC will never be a life-changing technology, but other equally respected experts disagree. Damn it. In my opinion, quantum technology will take off but no one knows exactly when. You can imagine for a moment that QC now is akin to Deep Learning in 2010-2011. It is no longer very fashionable, and there are no successful practical applications, albeit theoretical views on what might work are abundant. But who would have predicted back then how Dl would explode in the coming years? Similarly, in 1903, just 2 months prior to the flight of the Wright brothers, the New York Times [predicted](https://bigthink.com/pessimists-archive/air-space-flight-impossible/) that the airplanes would be able to leave the ground and fly only in 10 million years. By the way, [Scott Aaronson](https://scottaaronson.blog/), one of the visible promoters of quantum computing, seems to ignore the practical aspect of quantum computing but is dealing with pure theory just because “this is so darn fucking insanely cool” (like that physicist from the meme about the need to hunt for gravitational waves).
@@ -45,6 +46,11 @@ Still, I do not rule out the possibility that someone invents a breakthrough tec
 PS. ["Quantum computing for the very curious"](https://quantum.country/qcvc)  is the best resource I found so far that aims at explaining QC in an intuitive way but also diving into math.
 
 ---
+
+# A version of this post in Russian 
+
+_The corresponding [Telegram post](https://t.me/new_yorko_times/36)._
+
 
 Расскажу немного про то, что я узнал о мире квантовых вычислений, пока помогал Семену Синченко & Co. с разработкой [курса](https://ods.ai/tracks/qmlcourse) по квантовому машинному обучению. На хабр, условно, я б с таким текстом не пошел – любой настоящий эксперт за что-нибудь зацепится и по пунктам и подпунктам объяснит мне в коментах, почему я чмо (сложнее даже не с настоящими экспертами, а с попугаями, нахватавшимися терминов и с уверенностью Galactica вываливающими на тебя что-то, что ты не можешь легко проверить). Но если вы ничего не знаете о мире квантовых вычислений, мой обзор что-то да расскажет. Читать все же надо, как говорится, with a grain of salt – лезть в дивный новый мир квантовых вычислений так же сложно, как в любую столь же сложную область, будь то микробиология или неврология. 
 
@@ -88,6 +94,7 @@ _Квантовый компьютер IBM._
 - Обзорная [статья](https://quantum-ods.github.io/qmlcourse/book/intro/ru/intro.html)
  про квантовые вычисления "О квантовых компьютерах, биткоине и превосходстве" в курсе квантового машинного обучения от ODS 
  - [статья](https://vas3k.ru/blog/quantum_computing/) Вастрика про квантовый компьютер 
+ - [серия](https://tinyurl.com/3pswvjs7) подкаста «Запуск завтра» с сотрудником Российского Квантового Центра Алексеем Федоровым. Как не существующий пока квантовый компьютер уже меняет мир (постквантовая криптография), что возможно сейчас и куда движемся. 
 
 
 
