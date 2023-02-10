@@ -2,7 +2,7 @@
 layout: article
 title: "[RU] the Netherlands: pros and cons"
 image:
-  teaser: 2019-10-14-netherlands-pros-cons/schiedam.jpg
+  teaser: 20191014-netherlands-pros-cons/schiedam.jpg
 ---
 
 _My personal pros & cons list of working and living in the Netherlands._
