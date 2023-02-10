@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title                   : "Yury Kashnitsky"
-description             : "Blog and website by Yury Kashnitsky"
+description             : "Yury Kashnitsky's view on machine learning popular science, career development, programming. soft skills, etc."
 author                  : yorko
 logo                    : logo-120x120.png
 teaser                  : teaser-blog.png
@@ -34,6 +34,7 @@ gems:
 
 plugins:
  - jekyll-remote-theme
+ - jekyll-feed
 
 
 # Site owner
