@@ -19,7 +19,7 @@ Let's summarize the claimed self-metrics of the presented detectors:
 - Copyleaks: **99%** accuracy
 - Winston AI: **99%** accuracy
 - AI Writing check: 80-90% accuracy
-- OpenAI classifier: 26% recall, 91% specificity, with a small math exercise we get **25.3%** accuracy
+- OpenAI classifier: 26% recall, 91% specificity, with a small math exercise we get **58.5%** accuracy
 
 Wait. OpenAI hires the best talents in the whole world. The guys allegedly work for 60-90 hours/week. Is OpenAI really lagging behind the University of Kansas, Winston AI, etc.? 
 
