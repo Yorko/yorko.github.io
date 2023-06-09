@@ -5,7 +5,7 @@ image:
   teaser: 20230130-chatgpt-mle-take-home/teaser.png
 ---
 
-_In this post I describe how chatGPT cancover around 90% of the steps needed to successfylly crack a take-home assignment for the Machine Learning Engineer role._
+_In this post I describe how chatGPT can cover around 90% of the steps needed to successfylly crack a take-home assignment for the Machine Learning Engineer role._
 
 ***
 I know everyone is fed up with chatGPT by this point in time. But I find this story especially peculiar and worth sharing. 
