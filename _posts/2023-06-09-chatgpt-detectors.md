@@ -11,7 +11,7 @@ _In this post I reason about the claimed accuracy of chatGPT detectors and why t
 
 ## Self-claimed metrics for chatGPT detectors
 
-Ыщьущту pointed me to yet another chatGPT detector with 99% accuracy (on top of  GPTZero, DetectGPT, etc.). [This Forbes article](https://www.forbes.com/sites/ariannajohnson/2023/06/07/new-tool-can-tell-if-something-is-ai-written-with-99-accuracy/?sh=7e98e5ee5ed4) overviews many of such detectors. 
+A colleague pointed me to yet another chatGPT detector with 99% accuracy (on top of  GPTZero, DetectGPT, etc.). [This Forbes article](https://www.forbes.com/sites/ariannajohnson/2023/06/07/new-tool-can-tell-if-something-is-ai-written-with-99-accuracy/?sh=7e98e5ee5ed4) overviews many of such detectors. 
 
 Let's summarize the claimed self-metrics of the presented detectors:
 
