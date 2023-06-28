@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "Near-duplicate detection with Locality-Sensitive Hashing and Datasketch"
+title: "Near-duplicate Detection with Locality-Sensitive Hashing and Datasketch"
 image:
   teaser: 20230627-practical-near-dup-detection/teaser.png
 ---
 
-_In this post, I review Locality-Sensitive Hashing for near-duplicate detection. I demonstrate the principle, and provide a quick intro to `Datasketch` which is a convenient library to run near-duplicate detection at scale._
+_In this post, I review Locality-Sensitive Hashing for near-duplicate detection. I demonstrate the principle and provide a quick intro to `Datasketch` which is a convenient library to run near-duplicate detection at scale._
 
 ***
 
@@ -37,22 +37,22 @@ In a nutshell, this works as follows. For a most typical scenario where we need 
 * all pairs of signatures where elements match at least in one position, generate *candidate pairs*;
 * (optionally) we can measure the true similarity between corresponding pieces of text to account for errors (False Positives) of the LSH algorithm.
 
-I know there are quite a few terms here. Instead of explaining all of them (and thus re-writing something similar to [this nice blog post](https://mattilyra.github.io/2017/05/23/document-deduplication-with-lsh.html)) I'd refer to a classical book ["Mining massive datasets", ch. 3](http://infolab.stanford.edu/~ullman/mmds/ch3n.pdf) for an intro into Locality-Sensitive Hashing and finding similar items. In this blog post, we'll focus on a practical use cases of finding near-dups in a large collection of texts.  
+I know there are quite a few terms here. Instead of explaining all of them (and thus re-writing something similar to [this nice blog post](https://mattilyra.github.io/2017/05/23/document-deduplication-with-lsh.html)) I'd refer to a classical book ["Mining massive datasets", ch. 3](http://infolab.stanford.edu/~ullman/mmds/ch3n.pdf) for an intro into Locality-Sensitive Hashing and finding similar items. In this blog post, we'll focus on a practical use case of finding near-dups in a large collection of texts.  
 
 ### 2. When we have incoming "query" data that we want to compare to a large "index" dataset
 
 Here "historical" data can be a large dataset, e.g. 5 mln. documents. 
 
-The "query" dataset is much smaller, e.g. 10K documents that we receive daily, say via some API, and would-like to deduplicate.
+The "query" dataset is much smaller, e.g. 10K documents that we receive daily, say via some API, and would like to deduplicate.
 
 
 <div style="text-align:center">
 <img src="/images/20230627-practical-near-dup-detection/illustrating_minhash_lsh_with_query_and_index.png" width=800px />
 </div>
 
-We can do without LSH at all just comparing 10K fresh documents to 5 mln. historical documents. But that'd require 50 bln. comparisons each day, might be too computationally prohibitive (a dumb idea leading, above all, to a considerable carbon footprint). LSH is a technique that approximates the exact similarity function. 
+We can do without LSH at all just comparing 10K fresh documents to 5 mln. historical documents. But that'd require 50 bln. comparisons each day might be too computationally prohibitive (a dumb idea leading, above all, to a considerable carbon footprint). LSH is a technique that approximates the exact similarity function. 
 
-The essence of the algorithm is to create **signatures** for each piece of text that is identified here by a `DocID`. Signatures are just numeric vector of some fixed dimension, e.g. 128. 
+The essence of the algorithm is to create **signatures** for each piece of text that is identified here by a `DocID`. Signatures are just numeric vectors of some fixed dimension, e.g. 128. 
 
 For two pieces of text to be considered as candidates for near-duplicates, it suffices for their hash signatures to match in at least one component. In the picture above, a pair highlighted in green is a candidate, and a pair highlighted in orange is another one. Bolded are those matching hash values.
 
@@ -61,7 +61,7 @@ For two pieces of text to be considered as candidates for near-duplicates, it su
 
  - The method only takes care of the **lexical similarity** not semantical. Thus, with LSH, we won't identify near-duplicates that differ due to parapharasing, synonym replacement, etc. 
  - The method is probabilistic, i.e. some errors are allowed. Not all candidates would actually be near-duplicates. One can check this by calculating Jaccard similarity of the candidates. Thus, the algorithm is characterized by **precision** (out of all pairs of candidates found by the algorithm, what's the proportion of real near-duplicates, i.e. with their Jaccard similarity exceeding the predefined threshold) and **recall** (out of all near-duplicate pairs, what's the proportion of those found by the algorithm).
- - In practice, for a large enough dataset and long pieces of text (e.g. full documents not just titles), LSH tends to work worse in terms of precision while recall can not be known without a crazy carbon footprint. FInding true near-duplicate pairs in a relatively small collection of 50K texts requires >1.2B calls to a Jaccard similarity subroutine. 
+ - In practice, for a large enough dataset and long pieces of text (e.g. full documents not just titles), LSH tends to work worse in terms of precision while recall can not be known without a crazy carbon footprint. Finding true near-duplicate pairs in a relatively small collection of 50K texts requires >1.2B calls to a Jaccard similarity subroutine. 
 
 
 ```python
@@ -202,16 +202,11 @@ Querying near-duplicates for the 3rd piece of text.
 lsh.query(minhash3)
 ```
 
-
-
-
-    ['text2']
-
-
+    ['text2'
 
 **Same with Redis storage as a backend, not Python dictionaries**
 
-See [MinHashLSH docs](http://ekzhu.com/datasketch/lsh.html) to configure the algo to run with Redis backend. The idea is that to query LSH for near-duplicates, we only need to make lookups to get signatures. Redis is an in-memory database which allows for very fast lookups, also, it scales much better than Python dictionaries.
+See [MinHashLSH docs](http://ekzhu.com/datasketch/lsh.html) to configure the algo to run with the Redis backend. The idea is that to query LSH for near-duplicates, we only need to make lookups to get signatures. Redis is an in-memory database that allows for very fast lookups, also, it scales much better than Python dictionaries.
 
 
 ```python
@@ -258,7 +253,7 @@ Reading data
 
 
 ```python
-# you can download the dataset and customize this path
+# You can download the dataset and customize this path
 PATH_TO_DATA = Path("crypto_news")
 ```
 
@@ -272,7 +267,7 @@ query_df = pd.read_csv(PATH_TO_DATA /
                        "crypto_news_parsed_2018_validation.csv")
 ```
 
-We'll identify each title by some id, so reindexing. Also, there are quire a few fields in the dataset, we'll take care only of the `title` field.
+We'll identify each title by some id, so reindexing. Also, there are quite a few fields in the dataset, we'll take care only of the `title` field.
 
 
 ```python
@@ -515,11 +510,11 @@ The distribution is nice, mostly, LSH indeed captures similar pairs.
 ```
     0.8334
 
-> **_NOTE:_**  That's the precision of the LSH algorithm. In practice, it's very easy to have 100% precision with an additional effort of calculating the actual Jaccard similarity for the candidate pairs (as done above) and filtering out false postives, i.e. the canidates pairs with similarity below the predefined threshold. 
+> **_NOTE:_**  That's the precision of the LSH algorithm. In practice, it's very easy to have 100% precision with an additional effort of calculating the actual Jaccard similarity for the candidate pairs (as done above) and filtering out false positives, i.e. the candidates pairs with similarity below the predefined threshold. 
 
 **Recall**
 
-This is a very computationally intensive step (that we are speeding up with multiprocessing) – we calculate all pairwise Jaccard similarities between 11k query titles and 27k indexed titles, and see how many true near-duplicates the LSH algo missed.
+This is a very computationally intensive step (that we are speeding up with multiprocessing) – we calculate all pairwise Jaccard similarities between 11k query titles and 27k indexed titles and see how many true near-duplicates the LSH algo missed.
 
 ```python
 shingled_query_text = [
@@ -577,7 +572,7 @@ print((pd.Series(jaccard_sims) >= SIMILARITY_THRESHOLD).sum() /
 ## Literature
 
 
-   - ["Mining massive datasets", ch. 3](http://infolab.stanford.edu/~ullman/mmds/ch3n.pdf) – theoretical foundation of Locality-Sensitive Hashing
+   - ["Mining massive datasets", ch. 3](http://infolab.stanford.edu/~ullman/mmds/ch3n.pdf) – the theoretical foundation of Locality-Sensitive Hashing
    - [A blog post](https://mattilyra.github.io/2017/05/23/document-deduplication-with-lsh.html) on this topic
    - [Datasketch](https://github.com/ekzhu/datasketch) – a Python library implementing, among all, the `MinHashLSH` algorithm
 
