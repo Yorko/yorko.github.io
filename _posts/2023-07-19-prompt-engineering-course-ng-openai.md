@@ -9,7 +9,7 @@ _In this post, I review a short course by Andrew Ng and Isa Fulford on ChatGPT P
 
 ***
 
-I found ChatGPT Prompt Engineering for Developers great and would like to give a short overview. 
+I found ["ChatGPT Prompt Engineering for Developers"](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) great and would like to give a short overview. 
 
 It's our favorite Andrew Ng in collaboration with Isa Fulford from OpenAI. 
 
