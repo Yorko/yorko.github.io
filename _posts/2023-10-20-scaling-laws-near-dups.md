@@ -27,7 +27,7 @@ _[Example](https://draftable.com/compare/MXhdtSjXWEqg) of a spotted potential re
 
 With my prototype, we first developed a near-duplicate detection solution at Elsevier and then collaborated with STM to [roll it out](https://www.stm-assoc.org/stm-integrity-hub-launches-new-research-integrity-tool/) for all publishers. 
 
-Internally, at Elsevier, we measured that around 4% of manuscripts have a near-duplicate submitted earlier. Prior to scaling the algorithm to all journals by all major publishers, are reasonable question we asked was: **As we increase the set of papers under consideration, how does the percentage of those having at least one near-duplicate change?**. Apparently, if we'd expect it to stay at 4% that's one story, but if we expect to have 20% of near-dups, that's a completely different story. 
+Internally, at Elsevier, we measured that around 4% of manuscripts have a near-duplicate submitted earlier. Prior to scaling the algorithm to all journals by all major publishers, a reasonable question we asked was: **As we increase the set of papers under consideration, how does the percentage of those having at least one near-duplicate change?** Apparently, if we'd expect it to stay at 4% that's one story, but if we expect to have 20% of near-dups, that's a completely different story. 
 
 
 ## Mathematical problem formulation
@@ -186,7 +186,7 @@ According to the model, the number of edges is quadratic in the number of nodes:
 
 $$E = \mathbb{p} \cdot {n \choose 2} = \mathbb{p} \cdot \frac{n(n-1)}{2}$$
 
-Imagine a clique (fully-connected graph), each edge is then kept with probability $\mathbb{p}$, hence this formula.
+Imagine a clique (fully-connected graph), each edge is then kept with probability $$\mathbb{p}$$, hence this formula.
 
 The scaling law of #edges (near-dups) vs. #nodes (titles/abstracts) is predicted well, though the coefficients are a bit off. The model can be adjusted for that. 
 
@@ -204,13 +204,3 @@ The scaling law of #edges (near-dups) vs. #nodes (titles/abstracts) is predicted
 ## Conclusion
 
 The mathematical model shows that the number of papers with at least one near-duplicate increases with the size of the collection. Hence, in a combined dataset of papers from multiple publishers, we'd expect to see a higher percentage of duplicated papers and, therefore, more cases of research misconduct. 
-
-
-
-
-
-
-
-
-
-
