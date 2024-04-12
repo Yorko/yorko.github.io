@@ -1,13 +1,89 @@
 ---
 layout: article
-title: "[RU] To Ph.D. or not to Ph.D."
+title: "[EN/RU] To Ph.D. or not to Ph.D."
 image:
   teaser: 20230126-to-phd-or-not-to-phd/teaser.jpg
 ---
 
-_In this post I collected my own subjective pros and cons of pursuing a Ph.D. degree._
+_In this post I collected my own subjective pros and cons of pursuing a Ph.D. degree. If you scroll down, you'll find a richer version of this post in Russian, wilth all jokes and puns._
 
 ***
+
+
+That's an eternal debate, and there are quite a few "Ph.D. survival guides" already published (e.g., [the one by Andrej Karpathy](https://karpathy.github.io/2016/09/07/phd/) or ["10 Tips for Research and a PhD"](https://www.ruder.io/10-tips-for-research-and-a-phd/) by Sebastian Ruder; beware of the survivorship bias btw). Still, I wanted to share my view, even though I did a Ph.D. in Russia and the European/US/etc experience might be somewhat different.
+
+<div style="text-align:center"><img src="/images/20230126-to-phd-or-not-to-phd/buenos_aires.jpg" width=500px /></div>
+*As a prelude, one of the widest avenues in the world, in Buenos-Aires, where I attended IJCAI 2015 and watched DeepMind present Atari RL for the first time. And of course, a genuine Argentinian steak is a life-time gastronomical experience.*
+
+# Pros
+
+## 1. Career boost
+
+Even though, as the saying goes, “Ph.D. is for people who love ideas more than money,” still, career-wise, it can be a great time investment. I personally enjoy R&D, for me it's a sweet spot between industry and academia. Some of the most seducing positions I've seen require a Ph.D. as a minimal req (though often can be substituted with a master's + 5-7 years of industrial experience). Another consideration for me is that a Ph.D. degree might help me when I'm 70+. Teaching calculus in a university is not a bad plan for me, a nerd.
+
+
+<div style="text-align:center"><img src="/images/20230126-to-phd-or-not-to-phd/who_love_ideas.jpg" width=500px /></div>
+_“PhD is for people who love ideas more than money”._ 
+
+## 2. Freedom of creation
+
+After I finished graduate school but had not yet defended, I went to work as a DS for an IT giant. For the dissertation, I still had to prove one small theorem, and then I realized how blinkered my brain was and how much more difficult it was to just sit down and think calmly. But when you are in graduate school full-time, ideas come to your mind all the time despite the chaos. 
+
+## 3. More free time (kinda)
+
+<div style="text-align:center"><img src="/images/20230126-to-phd-or-not-to-phd/saturdays.jpg" width=500px /></div>
+_Source: [https://phdcomics.com](https://phdcomics.com/)._ 
+
+Don’t get me wrong, academia ain’t all rainbows and beers during lunch breaks. Some research institutes might operate like that, but my Ph.D. was a serious full-time endeavor. My advisor would challenge me to aim at top-tier ML conferences. Add here grant proposals, conference deadlines and teaching – and your Ph.D. turns into a hectic activity, just like an industrial position. Despite all that, grad school felt like more free time compared to the industry, especially for networking and side projects. It was during grad school that I started teaching ML/DS at universities and corps, and eventually kicked off mlcourse ai. You could argue I could’ve spent that time solely on research and aimed to be part of that elusive 0.1% of people who made a difference with their Ph.D. thesis, but my excuse is that I'm too dumb for that. 
+
+## 4. Constantly learning new stuff
+
+One day you're studying GANs and game theory, then you ace advanced statistics; in a week you realize that you need to refresh some concepts from graph theory, then maybe group theory. It's just constant learning; you are always catching up with all these smart folks around you. This might be stressful, but in my case, that only motivated me. 
+
+## 5. Developing industry-relevant skills
+
+With CS/DS/ML, we are lucky. As a Ph.D. candidate, I learned a lot about all these things relevant to IT roles in the industry: algorithms, databases, social network analysis, etc. Actually, I spent the whole 1st year taking 4 Coursera courses at a time to catch up and fill the gaps. Then, you'd see yesterday's Ph.D. candidates landing jobs at Amazon/Meta/etc. 
+
+# Cons
+
+Certainly, there are many downsides to pursuing a Ph.D. degree, even apart from "spending these 4-6 years at Google instead". 
+
+## 1. Feeling like a loser
+
+<div style="text-align:center"><img src="/images/20230126-to-phd-or-not-to-phd/existentialcrisis.png" width=500px /></div>
+_Source: [https://phdcomics.com](https://phdcomics.com/)._ 
+
+Doing Ph.D., you constantly feel that you're stupid, your research sucks, and the thesis itself is worth nothing (the latter is true, only your papers matter). Even at grad seminars, where Ph.D. candidates informally shared what we were working on, I couldn't shake off the feeling that we were all smart losers. Moreover, I felt that everyone else felt the same. Probably that's even worse for postdocs, with a never-ending need to beg for money. As one of my colleagues put it, "You are never happy doing your Ph.D."
+
+## 2. Bad working culture
+
+<div style="text-align:center"><img src="/images/20230126-to-phd-or-not-to-phd/final_doc.png" width=500px /></div>
+_Source: [https://phdcomics.com](https://phdcomics.com/)._ 
+
+The downside of a flexible schedule in your grad school is that you often work on the weekends and even holidays. But the biggest issue isn't even time management. In academia, I saw many smart people, but not a single organized one that I could learn from. It's not only about the infamous messy "academic" style of coding. It's rather this "publish or perish" pressure, deadlines, multi-processing, overlapping projects, etc, that all eventually lead to sloppiness and bad working culture. 
+
+## 3. Bureaucracy
+
+That's probably more relevant for Russia and my old-fashioned Ph.D. defense process, so I won't be elaborating. tl;dr: in my case, that was a damned shitload of bureaucracy.
+
+## 4. Grants
+
+That's the sole reason I'll never get back to academia (well, apart from me being too dumb to produce revolutionary ideas). All these grant applications and reports just drain you and make you feel miserable (especially grant reports, in the pre-GPT era). Searching for grants, writing applications and reports, bluffing about the results – this all makes you (or at least made me) really unhappy. The rumor is one of the ads that makes professors or postdocs lure into the industry sounds like: "Think about it! You won't have to write grant applications. Ever. E-ver."
+
+## 5. The Gestalt monster
+
+<div style="text-align:center"><img src="/images/20230126-to-phd-or-not-to-phd/geschtalt.jpg" width=500px /></div>
+_Source: [https://phdcomics.com](https://phdcomics.com/)._ 
+
+Your Ph.D. thesis is a huge gestalt. Anyone who's been through this knows: the period from pre-defense to the long-awaited defense is incredibly stressful. Wherever you are, whatever you're doing, part of your brain is occupied by the thought that you should be writing your thesis. This "tumor" is eating part of your brain. And even though the defense brings a tremendous feel of relief, I wouldn't go the same route again. 
+
+# Conclusion 
+
+Despite all the downsides, I want to end on a positive note: Ph.D. is a cool experience. While I wouldn't call it the happiest period of my life, I don't regret it. It's like an adventure and an extension of your childhood: when else would you go for it if not at 23? And a bit of ageism as a wrap-up: my advice is to go to grad school when you're young; once you're loaded with work, family duties, and other responsibilities, it's too hard to break out of that local minimum.
+
+---
+
+# A (richer) version of this post in Russian 
 
 *The corresponding [Telegram post](https://t.me/new_yorko_times/51) and [Vastrik post](https://vas3k.club/post/18133).*
 
@@ -43,6 +119,7 @@ _“PhD is for people who love ideas more than money”._
 
 
 <div style="text-align:center"><img src="/images/20230126-to-phd-or-not-to-phd/saturdays.jpg" width=500px /></div>
+_Источник: [https://phdcomics.com](https://phdcomics.com/)._ 
 
 При всем этом мне показалось, что все равно в аспирантуре свободного времени больше, чем в индустрии, на примере мэйла. Больше времени на нетворк и сторонние проекты. Именно во время аспирантуры я начал активно преподавать ML/DS в вузе и корпорациях и в итоге заложил основы http://mlcourse.ai (тут можно возразить, что я мог бы этого не делать, а больше времени вложить собственно в рисеч и попасть в тот 0.1% людей, породивших стоящие идеи, но я отговариваюсь тем, что туповат для этого).
 
@@ -60,6 +137,7 @@ _“PhD is for people who love ideas more than money”._
 ## Минус 1. Ощущение лузерства
 
 <div style="text-align:center"><img src="/images/20230126-to-phd-or-not-to-phd/existentialcrisis.png" width=500px /></div>
+_Источник: [https://phdcomics.com](https://phdcomics.com/)._ 
 
 Постоянное ощущение, что ты тупой и рисеч твой ничего не стоит, а диссер пишется в стол (а если защищаться по классической схеме, он реально пишется в стол, важны только крутые статьи, но не диссер). Даже в аспирантуре модной (на 2013 год) Вышки все равно не избежишь “атмосферы НИИ”, когда дойдет до защиты – чай “Корона российской империи”, деды в свитерах, гранты РФФИ. Какие-то никому не нужные проекты тащатся и все делают вид, что они реально что-то значат. Даже на аспирантских семинарах, где мы делились, кто над чем работает, меня не покидало ощущение, что собрались умные лузеры. Более того, мне казалось, что у других ощущение ровно то же было. Предположу, что на позициях postdoc и выше ощущение лузерства еще и усугубляется необходимостью “стоять с протянутой рукой”, то есть выбивать деньги на свои исследования. В-общем, мне запомнились слова бодренького француза, коллеги в Вышке: ”You are never happy doing your Ph.D”. 
 
@@ -68,6 +146,7 @@ _“PhD is for people who love ideas more than money”._
 Я уже говорил, что в целом у меня было в аспирантуре было больше свободного времени, но этот свободный график работы часто подразумевал дедлайны в выходные и даже праздники, а рабочая суббота в академии – по сути почти принятая норма. 
 
 <div style="text-align:center"><img src="/images/20230126-to-phd-or-not-to-phd/final_doc.png" width=500px /></div>
+_Источник: [https://phdcomics.com](https://phdcomics.com/)._ 
 
 Но даже не time management самая главная проблема. В академии я видел много умных людей, но ни одного – организованного, так чтоб было чему поучиться. И речь даже не про пресловутые коммиты в мастер и качество кода академиков. Просто смотришь на коллег вокруг и видишь, что у всех жопы горят, проекты идут внахлест, а организация работы желает лучшего. И конечно, из-за этого халтуры тоже немало. Парадигма ”publish or perish” и гонка за Хиршем тут совсем не помогают. 
 
@@ -85,6 +164,7 @@ _“PhD is for people who love ideas more than money”._
 ## Минус 5. Гештальтище
 
 <div style="text-align:center"><img src="/images/20230126-to-phd-or-not-to-phd/geschtalt.jpg" width=500px /></div>
+_Источник: [https://phdcomics.com](https://phdcomics.com/)._ 
 
 Само требование затащить таки этот диссер – колоссальный гештальт. Знакомо всем, кто прошел этот путь: период от предзащит до долгожданной защиты – очень давящий. Где бы ты ни был, что б ты ни делал, часть твоего мозга оккупирована мыслью, что ты должен писать диссер. Ощущение, что без успешной защиты и получения степени ты просто потерял 3-4 года – очень гнетущее. И даже несмотря на последующее потрясающее ощущение “горы, свалившейся с плеч” после успешной защиты, я б больше не хотел повторять такой опыт. 
 
