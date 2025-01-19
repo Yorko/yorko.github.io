@@ -13,7 +13,7 @@ image:
 
 *06.2024 – current*
 
-Building GenAI prototypes for customers to drive sales. 
+Co-building GenAI prototypes with customers, to drive revenue for both customers and Google. 
 
 #### Principal Machine Learning Scientist, RELX/Elsevier
 
