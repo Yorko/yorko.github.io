@@ -2,6 +2,13 @@
 
 Here the code for my personal website is stored.
 
+## Prereqs
+
+ - `brew install ruby`
+ - update gem: `gem update --system`
+ - install Jekyll: `gem install jekyll`
+
+
 ## Source
 
 [`_config.yml`](_config.yml) – project-level configurations.
@@ -32,6 +39,7 @@ Just putting the GA measurement ID into `_config.yaml` didn't work, so I inserte
 
 ## Building
 
+- `bundle update --bundler`
 - `bundle install`
 - `bundle exec jekyll build`
 - `bundle exec jekyll serve`
