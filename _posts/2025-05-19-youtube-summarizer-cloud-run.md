@@ -2,13 +2,29 @@
 layout: article
 title: "Tutorial: YouTube summarization with Gemini and Google Cloud Run"
 image:
-  teaser: 20250517-youtube-summarizer-cloud-run/teaser.png
+  teaser: 20250519-youtube-summarizer-cloud-run/teaser.png
 ---
 
 
-Gemini is pretty good with YouTube analysis. Let's build and deploy a web application that summarizes YouTube videos using Google's Gemini and deploy it with Google Cloud Run.
+Gemini is pretty good with YouTube analysis. You can just drop a youtube link into [gemini.google.com](https://gemini.google.com/) and ask to provide a summary. Here is an example for [https://youtu.be/jCTvblRXnzg](https://youtu.be/jCTvblRXnzg) – a brief, meme-heavy overview of Google's AlphaEvolve:
 
-<div style="text-align:center"><img src="/images/20250517-youtube-summarizer-cloud-run/youtube_summarizer_interface.png" width=500px /></div>
+<div style="text-align:center"><img src="/images/20250519-youtube-summarizer-cloud-run/gemini_yourube_summarization.png" width=500px /></div>
+
+Other LLMs, not equipped with YouTube tools, might not be able to fetch the video content provided only with a link: 
+
+<div style="text-align:center"><img src="/images/20250519-youtube-summarizer-cloud-run/openai_yourube_summarization.png" width=500px /></div>
+
+(funny enough, this particular LLM braggs about GPT-4o instead of Google's AlphaEvolve).
+
+Notes:
+ - While Gemini is a multimodal AI capable of understanding images and audio, its YouTube summarization feature primarily focuses on the textual content. It doesn't typically analyze visual cues or nuances in the speaker's tone to generate the summary;
+ - Summarizing long videos might be a challenge, for such tasks it's better to first cut the video in chunks. 
+
+## Goal of the tutorial
+
+Let's build and deploy a web application that summarizes YouTube videos using Google's Gemini and deploy it with Google Cloud Run.
+
+<div style="text-align:center"><img src="/images/20250519-youtube-summarizer-cloud-run/youtube_summarizer_interface.png" width=800px /></div>
 
 
 _This tutorial is a modernized version of the code lab [Build a YouTube Summarizer Codelab](https://codelabs.developers.google.com/devsite/codelabs/build-youtube-summarizer)._
