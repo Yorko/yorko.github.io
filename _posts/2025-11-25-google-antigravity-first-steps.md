@@ -51,7 +51,7 @@ For a prompt, I simply gave:
 
 Antigravity opened the browser to read through the repository (that's already pretty cool), then came up with a Task and an Implementation plan.
 
-<div style="text-align:center"><img src="/images/20251125-google-antigravity-first-steps/prey_predators_task.png" width=500px /></div>
+<div style="text-align:center"><img src="/images/20251125-google-antigravity-first-steps/task.png" width=500px /></div>
 
 <div style="text-align:center"><img src="/images/20251125-google-antigravity-first-steps/implementation_plan.png" width=500px /></div>
 
@@ -60,7 +60,7 @@ Then the app prompts the user to review the implementation and proceed (it's als
 Finally, Antigravity opens the browser to test the application. 
 
 <div style="text-align:center">
-  <video width="500" controls>
+  <video width="700" controls>
     <source src="/images/20251125-google-antigravity-first-steps/antigravity_prey_predators.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
