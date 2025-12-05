@@ -11,7 +11,7 @@ feed:
   path                  : atom.xml
 encoding                : UTF-8
 google_analytics        : G-51NVNH4J5S
-comments                : true
+comments                : false
 
 # Jekyll configuration
 
@@ -47,7 +47,7 @@ owner:
   facebook              : "festline"
   bio                   : "Yury Kashnitsky is a Principal Machine Learning Scientist, NLP practitioner, Ph.D. in applied math, and leader of the open Machine Learning course mlcourse.ai"
   avatar                : bio-photo.jpg # 160x160 px image for author byline
-  disqus-shortname      : yorko-github-io
+  # disqus-shortname      : yorko-github-io
 
 include: ["_pages", ".htaccess"]
 exclude:
