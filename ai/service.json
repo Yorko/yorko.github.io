@@ -1,0 +1,7 @@
+{
+  "name": "New Yorko Times",
+  "type": "Blog",
+  "topics": ["Machine Learning", "Data Science", "AI", "Career", "Education"],
+  "language": ["en", "ru"],
+  "url": "https://yorko.github.io"
+}

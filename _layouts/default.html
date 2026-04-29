@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
-    {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}New Yorko Times — a blog by Yury Kashnitsky on Machine Learning, Data Science, AI research, career advice, and open education.{% endif %}">
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
     {% if page.author %}
       {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
@@ -31,6 +31,73 @@
     {% include mathjax_support.html %}
     {% endif %} -->
 
+    <!-- WebSite + Organization JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://yorko.github.io/#website",
+          "url": "https://yorko.github.io",
+          "name": "New Yorko Times",
+          "description": "A blog by Yury Kashnitsky on Machine Learning and Data Science.",
+          "inLanguage": "en",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://yorko.github.io/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://yorko.github.io/#organization",
+          "name": "New Yorko Times",
+          "url": "https://yorko.github.io",
+          "logo": "https://yorko.github.io/assets/logo.png"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://yorko.github.io/#person",
+          "name": "Yury Kashnitsky",
+          "url": "https://yorko.github.io",
+          "jobTitle": "Principal Machine Learning Scientist",
+          "description": "Yury Kashnitsky is a Principal Machine Learning Scientist, NLP practitioner, Ph.D. in applied math, and leader of the open Machine Learning course mlcourse.ai",
+          "image": "https://yorko.github.io/assets/og-image.png",
+          "sameAs": [
+            "https://www.linkedin.com/in/kashnitsky",
+            "https://github.com/Yorko",
+            "https://twitter.com/ykashnitsky"
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <!-- FAQPage JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who writes New Yorko Times?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yury Kashnitsky, a Data Scientist and creator of mlcourse.ai." }
+        },
+        {
+          "@type": "Question",
+          "name": "What topics are covered?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Machine Learning, Data Science, AI, career advice, book reviews, and personal stories." }
+        },
+        {
+          "@type": "Question",
+          "name": "What is mlcourse.ai?",
+          "acceptedAnswer": { "@type": "Answer", "text": "An open and free Machine Learning course led by Yury Kashnitsky, hosted at mlcourse.ai." }
+        }
+      ]
+    }
+    </script>
   </head>
 
   <body id="js-body">
@@ -39,7 +106,9 @@
     {% include navigation-sliding.html %}
 
     <div id="page-wrapper">
-      {{ content }}
+      <main id="content" role="main">
+        {{ content }}
+      </main>
       {% include footer.html %}
     </div>
 

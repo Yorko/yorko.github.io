@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who writes New Yorko Times?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yury Kashnitsky, a Data Scientist and creator of mlcourse.ai." }
+    },
+    {
+      "@type": "Question",
+      "name": "What topics are covered?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Machine Learning, Data Science, AI, career advice, book reviews, and personal stories." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is mlcourse.ai?",
+      "acceptedAnswer": { "@type": "Answer", "text": "An open and free Machine Learning course led by Yury Kashnitsky, hosted at mlcourse.ai." }
+    }
+  ]
+}
