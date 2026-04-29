@@ -1,0 +1,14 @@
+---
+layout: null
+---
+# New Yorko Times
+> A blog by Yury Kashnitsky (yorko) on Machine Learning, Data Science, AI, and personal stories. Creator of mlcourse.ai.
+
+## Recent Posts
+{% for post in site.posts limit:10 %}
+- [{{ post.title }}]({{ site.url }}{{ post.url }}): {{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}
+{% endfor %}
+
+## Key Links
+- [Homepage]({{ site.url }}/)
+- [About]({{ site.url }}/about/)
